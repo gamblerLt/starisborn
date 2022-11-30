@@ -11,13 +11,17 @@ public enum Week {
     BLACKDAY("Juodadienis", 8);
     private final String name;
     private final int number;
-    private Week(String name, int number){
+
+    private Week(String name, int number) {
         this.name = name;
         this.number = number;
     }
-    public String getName(){
+
+    public String getName() {
         return name;
     }
-    public String getNumber(){
+
+    public int getNumber() {
         return number;
+    }
 }
