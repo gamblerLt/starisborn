@@ -6,6 +6,7 @@ public class TestOne {
 
         System.out.println("Hello world! Keliu is ausros!");
         System.out.println("2 versija!");
+        System.out.println("3 versija!, taip pat is wurk");
     }
 }
 
