@@ -11,6 +11,8 @@ public class EnumEx {
     public  static void main(String[] args) {
         System.out.println(MONDAY);
         System.out.println(Week.SUNDAY);
+        System.out.println(Week.BLACKDAY.getName());
+        System.out.println(Week.BLACKDAY.getNumber());
 
     }
     }
