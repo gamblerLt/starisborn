@@ -2,7 +2,7 @@ package task;
 
 public class SecondTask {
     public static void main(String[] args) {
-        int s = 8;
+        int s = 6;
 
         if (s <= 0) {
             System.out.println("Netinkamas skaicius");
@@ -19,7 +19,7 @@ public class SecondTask {
             case 2 -> System.out.println("Vasaris");
             case 3 -> System.out.println("Kovas");
             case 4 -> System.out.println("Geguze");
-            case 6 -> System.out.println("Birzelis");
+            case 6 -> System.out.println("Biržųūįųųėęįųęčūelis");
             case 7 -> System.out.println("Liepa");
             case 8 -> System.out.println("Rugpjutis");
             case 9 -> System.out.println("Rugsejis");
