@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1075d363-bb72-4ced-82b9-ac784b86e915" name="Changes" comment="Edited println">
       <changelist_data name="Wurk" email="" />
-      <change afterPath="$PROJECT_DIR$/src/task/FirstTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/eleven/TestOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eleven/TestOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eleven/YearWhat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eleven/YearWhat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,7 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FirstTask">
+  <component name="RunManager" selected="Application.YearWhat">
     <configuration name="FirstTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task.FirstTask" />
       <module name="starisborn" />
@@ -89,9 +89,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.YearWhat" />
         <item itemvalue="Application.FirstTask" />
         <item itemvalue="Application.TestOne" />
-        <item itemvalue="Application.YearWhat" />
       </list>
     </recent_temporary>
   </component>
@@ -103,7 +103,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669816729693</updated>
-      <workItem from="1669824172541" duration="1091000" />
+      <workItem from="1669824172541" duration="2503000" />
     </task>
     <servers />
   </component>

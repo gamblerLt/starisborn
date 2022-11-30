@@ -1,10 +1,15 @@
 package eleven;
+import java.util.GregorianCalendar;
 import java.util.Scanner;
 public class YearWhat {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Iveskite metus");
         int year = sc.nextInt();
+
+    //   GregorianCalendar calendar = new GregorianCalendar();
+    //   boolean isLeapYear= calendar.isLeapYear(year);
+    //   System.out.println(isLeapYear);
 
         //   int year = 4000;
 
