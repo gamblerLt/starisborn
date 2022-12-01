@@ -6,14 +6,19 @@ public enum MesurmentUnit {
     METER(1, "m"),
     KILOMETER(0.001, "km");
 
-    private  final double unitValue = 0;
+    private final double unitValue;
     private final String unitName;
 
+
     MesurmentUnit(double unitValue, String unitName){
-        this.unitValue;
-        this.unitName;
+             this.unitName = unitName;
+             this.unitValue = unitValue;
     }
-    public double getUnitValue() {return  unitValue;}
-    public String getUnitName() {return  unitName;}
-}
+    public String getUnitName() {
+        return  unitName;
+    }
+    public double getUnitValue() {
+        return  unitValue;
+    }
+
 }
