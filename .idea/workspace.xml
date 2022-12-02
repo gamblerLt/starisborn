@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1075d363-bb72-4ced-82b9-ac784b86e915" name="Changes" comment="Edited println">
+    <list default="true" id="1075d363-bb72-4ced-82b9-ac784b86e915" name="Changes" comment="Sutvarkiau, veikia">
       <changelist_data name="Wurk" email="" />
-      <change afterPath="$PROJECT_DIR$/src/array/ExOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task/Formulas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task/Anny.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task/EvenNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task/EvenNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task/FindWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task/FindWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task/FunctionTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task/FunctionTask.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -27,17 +30,13 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
-  </component>
   <component name="ProjectId" id="2IGnKcL8Z9knonjJdoE5o98KOxl" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,13 +45,12 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.App">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task.App" />
+  <component name="RunManager" selected="Application.MainMesurementUnit">
+    <configuration name="FunctionTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task.FunctionTask" />
       <module name="starisborn" />
       <extension name="coverage">
         <pattern>
@@ -64,12 +62,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task.FirstTask" />
+    <configuration name="MainMesurementUnit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="theory.MainMesurementUnit" />
       <module name="starisborn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task.*" />
+          <option name="PATTERN" value="theory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,38 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twelwe.Test" />
+    <configuration name="MainMesurementUnit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="theory.MainMesurementUnit" />
       <module name="starisborn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="twelwe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="eleven.TestOne" />
-      <module name="starisborn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="eleven.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YearWhat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="eleven.YearWhat" />
-      <module name="starisborn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="eleven.*" />
+          <option name="PATTERN" value="theory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +90,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.YearWhat" />
-        <item itemvalue="Application.FirstTask" />
-        <item itemvalue="Application.TestOne" />
+        <item itemvalue="Application.MainMesurementUnit" />
       </list>
     </recent_temporary>
   </component>
@@ -134,12 +102,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669816729693</updated>
-      <workItem from="1669824172541" duration="2503000" />
     </task>
+    <task id="LOCAL−00001" summary="Sutvarkiau, veikia">
+      <created>1669885974826</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1669885974826</updated>
+    </task>
+    <task id="LOCAL−00002" summary="Pirma uzd. +">
+      <created>1669887636497</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1669887636497</updated>
+    </task>
+    <task id="LOCAL−00003" summary="+ - ir 0">
+      <created>1669895513733</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1669895513733</updated>
+    </task>
+    <task id="LOCAL−00004" summary="+ - ir 0">
+      <created>1669957599728</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1669957599728</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -154,6 +143,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Edited println" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edited println" />
+    <MESSAGE value="Sutvarkiau, veikia" />
+    <MESSAGE value="Pirma uzd. +" />
+    <MESSAGE value="+ - ir 0" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ - ir 0" />
   </component>
 </project>
