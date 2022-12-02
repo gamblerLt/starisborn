@@ -4,13 +4,11 @@ package task;
 //suskaidyti ji dalimis
 //atpazinti koks veiksmas
 //ivykdyti ji
-public class Formulas {
-    public Double clculate(Double number1, Double number2, String action){
-        return 0;
-    }
-
-//    public void calculate() {
+//public class Formulas {
+//    public Double clculate(Double number1, Double number2, String action){
+//        return 0;
 //    }
-}
+
+//}
 
 //sitas failas yra vykdytojas
