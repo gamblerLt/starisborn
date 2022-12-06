@@ -17,6 +17,11 @@ public class Lottery {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Iveskite sesiazenkli skaiciu:");
         int ticket = scanner.nextInt();
+        System.out.println("jusu sk " + ticket);
+
+// irasyti ta sk i masyva
+        // istraukti pirmus tris ir paskutinius tris ir susumuoti
+        //tada palyginti
 
 
      //   private boolean isSumEqual ( int sum){

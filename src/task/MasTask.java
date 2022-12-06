@@ -24,5 +24,5 @@ public class MasTask {
 
         System.out.println(mas.toString());
     }
-    ;
+
 }
