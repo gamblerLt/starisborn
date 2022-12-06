@@ -3,9 +3,9 @@ import java.util.Random;
 public class RandomExercise {
     public static void main(String[] args) {
 
-        RandomExercise exercice = new RandomExercise();
+        RandomExercise exercise = new RandomExercise();
         int[] mas = {5, 10, 15};
-        int max = exercice.getMax(mas);
+        int max = exercise.getMax(mas);
         //System.out.println("Maksimalus masyvo sk. yra: " + mas);
 
         Random random = new Random();
