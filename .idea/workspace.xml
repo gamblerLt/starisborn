@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fce5b895-53bd-4d0a-afa1-daf6d1453039" name="Changes" comment="44 paskaita">
-      <change afterPath="$PROJECT_DIR$/src/task/ArraySum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task/CopyArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task/RemoveArrElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task/MinMaxArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task/Lottery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task/Lottery.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +48,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CopyArray">
+  <component name="RunManager" selected="Application.MinMaxArray">
     <configuration name="ArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task.ArraySum" />
       <module name="starisborn" />
@@ -91,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MasTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task.MasTask" />
+    <configuration name="MinMaxArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task.MinMaxArray" />
       <module name="starisborn" />
       <extension name="coverage">
         <pattern>
@@ -119,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinMaxArray" />
         <item itemvalue="Application.CopyArray" />
         <item itemvalue="Application.RemoveArrElement" />
         <item itemvalue="Application.ArraySum" />
         <item itemvalue="Application.Lottery" />
-        <item itemvalue="Application.MasTask" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +133,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669816729693</updated>
       <workItem from="1669824172541" duration="2503000" />
-      <workItem from="1670428888844" duration="8103000" />
+      <workItem from="1670428888844" duration="9862000" />
     </task>
     <task id="LOCAL−00001" summary="13 paskaita">
       <created>1670258924210</created>
@@ -174,7 +171,13 @@
       <option name="presentableId" value="LOCAL−00006" />
       <updated>1670355921867</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL−00007" summary="44 paskaita">
+      <created>1670439496910</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1670439496910</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
