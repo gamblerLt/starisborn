@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fce5b895-53bd-4d0a-afa1-daf6d1453039" name="Changes" comment="13 paskaita">
-      <change afterPath="$PROJECT_DIR$/src/task/TaskArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022-12-01_10_34__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022-12-01_10_34__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022-12-02_07_08.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022-12-02_07_08.xml" afterDir="false" />
+    <list default="true" id="fce5b895-53bd-4d0a-afa1-daf6d1453039" name="Changes" comment="44 paskaita">
+      <change afterPath="$PROJECT_DIR$/src/task/ArraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task/CopyArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task/RemoveArrElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task/Lottery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task/Lottery.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +27,6 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -46,13 +46,14 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TaskArray">
-    <configuration name="Andrew" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task.Andrew" />
+  <component name="RunManager" selected="Application.CopyArray">
+    <configuration name="ArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task.ArraySum" />
       <module name="starisborn" />
       <extension name="coverage">
         <pattern>
@@ -64,8 +65,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task.App" />
+    <configuration name="CopyArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task.CopyArray" />
       <module name="starisborn" />
       <extension name="coverage">
         <pattern>
@@ -77,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task.ForExample" />
+    <configuration name="Lottery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task.Lottery" />
       <module name="starisborn" />
       <extension name="coverage">
         <pattern>
@@ -90,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MasExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.MasExamples" />
+    <configuration name="MasTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task.MasTask" />
       <module name="starisborn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="task.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task.TaskArray" />
+    <configuration name="RemoveArrElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task.RemoveArrElement" />
       <module name="starisborn" />
       <extension name="coverage">
         <pattern>
@@ -118,23 +119,24 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TaskArray" />
-        <item itemvalue="Application.ForExample" />
-        <item itemvalue="Application.MasExamples" />
-        <item itemvalue="Application.Andrew" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="Application.CopyArray" />
+        <item itemvalue="Application.RemoveArrElement" />
+        <item itemvalue="Application.ArraySum" />
+        <item itemvalue="Application.Lottery" />
+        <item itemvalue="Application.MasTask" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1075d363-bb72-4ced-82b9-ac784b86e915" name="Changes" comment="" />
+      <changelist id="fce5b895-53bd-4d0a-afa1-daf6d1453039" name="Changes" comment="44 paskaita" />
       <created>1669816729693</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669816729693</updated>
       <workItem from="1669824172541" duration="2503000" />
+      <workItem from="1670428888844" duration="8103000" />
     </task>
     <task id="LOCAL−00001" summary="13 paskaita">
       <created>1670258924210</created>
@@ -142,7 +144,37 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1670258924210</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="13 paskaita">
+      <created>1670265617360</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1670265617360</updated>
+    </task>
+    <task id="LOCAL−00003" summary="13 paskaita">
+      <created>1670271128558</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1670271128558</updated>
+    </task>
+    <task id="LOCAL−00004" summary="44 paskaita">
+      <created>1670346589902</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1670346589902</updated>
+    </task>
+    <task id="LOCAL−00005" summary="44 paskaita">
+      <created>1670352623006</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1670352623006</updated>
+    </task>
+    <task id="LOCAL−00006" summary="44 paskaita">
+      <created>1670355921867</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1670355921867</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +194,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Edited println" />
     <MESSAGE value="13 paskaita" />
-    <option name="LAST_COMMIT_MESSAGE" value="13 paskaita" />
+    <MESSAGE value="44 paskaita" />
+    <option name="LAST_COMMIT_MESSAGE" value="44 paskaita" />
   </component>
 </project>
