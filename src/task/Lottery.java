@@ -34,7 +34,7 @@ public class Lottery {
         /*int sum = 0;
         for(int i = 0; i <3; i++);
         sum += Arrays.stream(array).sum();*/
-       // sum = sum + Arrays.stream(array).sum();
+       // 555 sum = sum + Arrays.stream(array).sum();
 
         /*firstNum = numbers.get(0);
         lastNum = numbers.get(numbers.size() - 1);*/
