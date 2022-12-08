@@ -3,7 +3,7 @@ package statictasks.task;
 public class SecMain {
     public static void main(String[] args) {
 
-        SecCl task = new SecCl();
+        SecCl gask = new SecCl();
         System.out.println();
         new SecCl();
         new SecCl();
