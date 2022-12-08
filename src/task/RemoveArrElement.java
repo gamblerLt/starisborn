@@ -22,7 +22,7 @@ public class RemoveArrElement {
 
                     ++i;
                 }
-                mas[tempIndex] = mas[i];
+              mas[tempIndex] = mas[i];
 
             }
         }
