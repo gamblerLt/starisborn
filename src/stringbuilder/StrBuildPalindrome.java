@@ -1,11 +1,5 @@
 package stringbuilder;
-/*
-Naudoti stringBuilder
-Madam
-Level
-Radar
-58185
- */
+
 public class StrBuildPalindrome {
     public static void main(String[] args) {
 
