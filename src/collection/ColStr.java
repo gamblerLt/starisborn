@@ -1,18 +1,43 @@
 package collection;
 
+import task.MinMaxArray;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
 public class ColStr {
     public static void main(String[] args) {
+        List<String> text = new ArrayList<>();
+
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Iveskite savo varda:");
+        text.add(sc.nextLine());
+        System.out.println("Iveskite brolio varda:");
+        text.add(sc.nextLine());
+        System.out.println("Iveskite sesers varda:");
+        text.add(sc.nextLine());
+        System.out.println("Iveskite mamos varda:");
+        text.add(sc.nextLine());
+        System.out.println("Iveskite tevo varda:");
+        text.add(sc.nextLine());
+        System.out.println("Iveskite senelio varda:");
+        text.add(sc.nextLine());
+        System.out.println("Iveskite senelio varda:");
+        text.add(sc.nextLine());
+        System.out.println("Iveskite senelio varda:");
+        text.add(sc.nextLine());
+
+        print(text);
+
 
     }
+
+    private static void print(List<String> text){
+
+        text.forEach(System.out::println);
+
+        text.removeIf();
+    }
 }
-/*
-* Sukurti String tipo elementus galintį saugoti sąrašą
-Vartotojas įvedinėja žodžius, kuriuos programa deda į
-sąrašą
-Po įvedimo atspausdinamas visas sąrašas
-Jei sąrašo dydis tampa 5, tada sąrašas išvalomas ir toliau
-dedama į tuščią sąrašą
-Jei dedant į sąrašą paaiškėja, kad toks elementas jau yra,
-tada spausdinamas klaidos pranešimas ir toliau laukiama
-kitų žodžių
-* */

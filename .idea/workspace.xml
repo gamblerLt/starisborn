@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fce5b895-53bd-4d0a-afa1-daf6d1453039" name="Changes" comment="44 paskaita">
-      <change afterPath="$PROJECT_DIR$/src/collection/ListExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/SimpleMy.java" afterDir="false" />
+    <list default="true" id="fce5b895-53bd-4d0a-afa1-daf6d1453039" name="Changes" comment="kolekcijosStr">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/ColStr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/ColStr.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +58,20 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SimpleMy">
+  <component name="RunManager" selected="Application.ColStr">
+    <configuration name="ColStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.ColStr" />
+      <module name="starisborn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collection.ListExample" />
       <module name="starisborn" />
@@ -99,19 +111,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskEquals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="equals.TaskEquals" />
-      <module name="starisborn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="equals.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TaskEqualsTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="equals.TaskEqualsTwo" />
       <module name="starisborn" />
@@ -127,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ColStr" />
         <item itemvalue="Application.SimpleMy" />
         <item itemvalue="Application.ListExample" />
         <item itemvalue="Application.StringTaskOne" />
         <item itemvalue="Application.TaskEqualsTwo" />
-        <item itemvalue="Application.TaskEquals" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +204,19 @@
       <option name="presentableId" value="LOCAL−00009" />
       <updated>1670443033476</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL−00010" summary="kolekcijos">
+      <created>1671048151747</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1671048151747</updated>
+    </task>
+    <task id="LOCAL−00011" summary="kolekcijosStr">
+      <created>1671048289646</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1671048289646</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +237,8 @@
     <MESSAGE value="Edited println" />
     <MESSAGE value="13 paskaita" />
     <MESSAGE value="44 paskaita" />
-    <option name="LAST_COMMIT_MESSAGE" value="44 paskaita" />
+    <MESSAGE value="kolekcijos" />
+    <MESSAGE value="kolekcijosStr" />
+    <option name="LAST_COMMIT_MESSAGE" value="kolekcijosStr" />
   </component>
 </project>
