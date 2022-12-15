@@ -21,22 +21,12 @@ public class TaskThree {
         System.out.println("Ilgiausias vardas yra: \n" + longestString);
         System.out.println("Ilgiausias vardas turi " + longestString.length() + " raides");
 
-        int lengthOfString = someText
+        int lengthOfString2 = someText
                 .stream()
                 .map(String::length)
                 .max(Integer::compare)
                 .get();
-        System.out.println("Ilgiausias vardas turi tiek raidziu: \n" + lengthOfString);
-
-
-
-
-
-
-
-
-
-
+        System.out.println("Ilgiausias vardas turi tiek raidziu: \n" + lengthOfString2);
 
     }
 

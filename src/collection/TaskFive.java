@@ -16,15 +16,21 @@ public class TaskFive {
         arr.add(sc.nextLine());
         System.out.println("Visi zodziai liste:\n" + arr);
 
-
+// 1 variantas
 
         List<String> findWord = arr
                 .stream()
                         .filter(x -> x.contains("Ivestas2"))
                                 .collect(Collectors.toList());
+
         System.out.println("Zodi radau: " + findWord);
-        /* arr.indexOf(findWord);
-        System.out.println(findWord);*/
+
+        //2 variantas
+
+        arr.indexOf(findWord);
+        System.out.println("Suradauzodi: " + findWord);
+
+
 
         String rm;
         System.out.println("Koki zodi norite istrinti?" + arr);
@@ -34,17 +40,16 @@ public class TaskFive {
         System.out.println("Jusu ivesta zodi istryniau. like zodziai" + arr);
 
 
-
-
-
         arr.clear();
         System.out.println("Sarasas istrintas, likusios reiksmes: " + arr);
         System.out.println("Dydis" + arr.size());
 
-
-
+        System.exit(0);
     }
+
 }
+
+//Andriaus collections task TaskFive, video apir 3 val 30 min
 
 /*
 * List<String> result = list

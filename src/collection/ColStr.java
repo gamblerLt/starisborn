@@ -1,5 +1,14 @@
 package collection;
-
+/*
+* •Sukurti String tipo elementus galintį saugoti sąrašą
+•Vartotojas įvedinėja žodžius, kuriuos programa deda į
+sąrašą
+•Po įvedimo atspausdinamas visas sąrašas
+• Jei sąrašo dydis tampa 5, tada sąrašas išvalomas ir toliau
+dedama į tuščią sąrašą
+• Jei dedant į sąrašą paaiškėja, kad toks elementas jau yra,
+tada spausdinamas klaidos pranešimas ir toliau laukiama
+kitų žodžių*/
 import task.MinMaxArray;
 
 import java.util.ArrayList;
@@ -9,47 +18,37 @@ import java.util.Scanner;
 public class ColStr {
     public static void main(String[] args) {
 
-
-
-        List<String> text = new ArrayList<>();
-        int arrSize = text.size();
-        System.out.println(arrSize);
-        if(arrSize >= 5){
-            text.clear();
-
-
-
+        List<String> words = new ArrayList<>();
         Scanner sc = new Scanner(System.in);
+        ColStr task = new ColStr();
 
-        System.out.println("Iveskite savo varda:");
-        text.add(sc.nextLine());
-        System.out.println("Iveskite brolio varda:");
-        text.add(sc.nextLine());
-        System.out.println("Iveskite sesers varda:");
-        text.add(sc.nextLine());
-        System.out.println("Iveskite mamos varda:");
-        text.add(sc.nextLine());
-        System.out.println("Iveskite tevo varda:");
-        text.add(sc.nextLine());
-        System.out.println("Iveskite senelio varda:");
-        text.add(sc.nextLine());
-        System.out.println("Iveskite senelio varda:");
-        text.add(sc.nextLine());
-        System.out.println("Iveskite senelio varda:");
-        text.add(sc.nextLine());
+        boolean isExist;
+        do {
+            System.out.println("Iveskite zodi");
+            String line = sc.nextLine();
+            isExist = line.equals("exit");
 
-            System.out.println("Dydis" + arrSize);
+            if(!isExist) {
+                task.addWord(words, line);
+                System.out.println(words);
+            }
 
-        print(text);
+        }while(!isExist);
+
+    }
+        private void addWord(List<String> words, String word) {
+            if(words.size() == 5) {
+                words.clear();
+                return;
+            }
+            if(words.contains(word)){
+                System.out.println("Klaida");
+                return;
+
+            }
+            words.add(word);
+
+        }
 
     }
 
-
-}
-
-
-    private static void print(List<String> text) {
-
-    text.forEach(System.out::println);
-    }
-}
