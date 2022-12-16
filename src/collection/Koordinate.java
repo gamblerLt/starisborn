@@ -9,28 +9,34 @@ public class Koordinate {
     public static void main(String[] args) {
 
         List<Point> points = new ArrayList<>();
-        points.add(new Point(2,5));
-        points.add(new Point(0,0));
-        points.add(new Point(1,5));
-        points.add(new Point(5,9));
-        points.add(new Point(4,0));
-        points.add(new Point(9,1));
+       /* points.add(new Point(2, 5));
+        points.add(new Point(0, 0));
+        points.add(new Point(1, 5));
+        points.add(new Point(5, 9));
+        points.add(new Point(4, 0));
+        points.add(new Point(9, 1));
 
         System.out.println();
+*/
 
-            int x;
-            int y;
 
-            List<Coordinates> coordinates = new ArrayList<>();
-            coordinates.add(new Coordinates(0, 0));
-            coordinates.add(new Coordinates(1, 5));
+        public cord(x, y){
 
+
+            List<Integer> list = new ArrayList<>();
+
+            list.add(cord(0, 0));
+            list.add(cord(1, 5));
+
+            System.out.println(cord(x, y));
+
+            return x;
         }
 
-
+    }
 }
 
-}
+
 
 /*
 1 - Sukurti klasę Koordinate, kuri turi private kintamuosius x ir y
