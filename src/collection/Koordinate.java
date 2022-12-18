@@ -2,40 +2,69 @@ package collection;
 
 import java.awt.*;
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 
-public class Koordinate {
-    public static void main(String[] args) {
-
-        List<Point> points = new ArrayList<>();
-       /* points.add(new Point(2, 5));
-        points.add(new Point(0, 0));
-        points.add(new Point(1, 5));
-        points.add(new Point(5, 9));
-        points.add(new Point(4, 0));
-        points.add(new Point(9, 1));
-
-        System.out.println();
-*/
+public class Koordinate{
 
 
-        public cord(x, y){
+    private int x;
+    private int y;
+
+    public Koordinate(int x, int y){
+        this.x = x;
+        this.y = y;
+    }
+
+    public int getX() {
+        return x;
+    }
+
+    public void setX(int x) {
+        this.x = x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
+    public void setY(int y) {
+        this.y = y;
+    }
+
+    public  static void main(String[] args) {
 
 
-            List<Integer> list = new ArrayList<>();
+        LinkedList<Koordinate> coordinates = new LinkedList<>();
+        coordinates.add(new Koordinate(1, 5));
+        coordinates.add(new Koordinate(5, 9));
+        coordinates.add(new Koordinate(4, 0));
+        coordinates.add(new Koordinate(0, 0));
+        coordinates.add(new Koordinate(9, 1));
+        coordinates.add(new Koordinate(2, 5));
 
-            list.add(cord(0, 0));
-            list.add(cord(1, 5));
 
-            System.out.println(cord(x, y));
+      //pakeisti indeksa 4 - 0, 0:
+        coordinates.remove(3);
+        coordinates.add(2, new Koordinate(1,1));
+        System.out.println(coordinates);
 
-            return x;
-        }
+
+       /*
+       * months.remove(0);
+        months.add(0, "January");
+        System.out.println("Pakeistas 0 indeksas Sausis - > January\n:" + months);*/
+
+
+
+
+        System.out.println(coordinates);
 
     }
-}
 
+
+}
 
 
 /*

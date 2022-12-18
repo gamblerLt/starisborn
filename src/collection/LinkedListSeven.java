@@ -70,7 +70,6 @@ public class LinkedListSeven {
         System.out.println("Kas liko po pop: \n" + months);
 
 
-
     }
 
 }
