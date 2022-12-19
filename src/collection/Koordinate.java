@@ -35,7 +35,7 @@ public class Koordinate {
         coordinates.add(5, new Iksy(50,50));
         for(Iksy koord: coordinates){
             System.out.println(koord);
-            System.out.println(coordinates.size());
+            //System.out.println(coordinates.size());
 
 
 
