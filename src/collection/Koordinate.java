@@ -8,7 +8,17 @@ import java.util.List;
 
 
 public class Koordinate{
+    public static void main(String[] args) {
 
+        List<Koordinate> coordinates = new ArrayList<>();
+        coordinates.add(new Koordinate(1, 5));
+        coordinates.add(new Koordinate(5, 9));
+        coordinates.add(new Koordinate(4, 0));
+        coordinates.add(new Koordinate(0, 0));
+        coordinates.add(new Koordinate(9, 1));
+        coordinates.add(new Koordinate(2, 5));
+
+          }
 
     private static int x;
     private static int y;
@@ -39,33 +49,19 @@ public class Koordinate{
         this.y = y;
     }
 
-    public static void main(String[] args) {
+    /*Koordinate listas = new Koordinate();
 
-        List<Koordinate> coordinates = new ArrayList<>();
-        coordinates.add(new Koordinate(1, 5));
-        coordinates.add(new Koordinate(5, 9));
-        coordinates.add(new Koordinate(4, 0));
-        coordinates.add(new Koordinate(0, 0));
-        coordinates.add(new Koordinate(9, 1));
-        coordinates.add(new Koordinate(2, 5));
+    public Koordinate getListas() {
+        return listas;
+    }*/
 
-        //Koordinate listas = new Koordinate();
-
-        System.out.println(listas.toString());
-
-
-        for(int i = 0; i < coordinates.size(); i++){
-            System.out.println(coordinates.get(i));
-
-        }
-
-            System.out.println(coordinates);
+   /* System.out.println(coordinates);
         //pakeisti indeksa 4 - 0, 0:
         coordinates.remove(3);
         coordinates.add(2, new Koordinate(1,1));
-        System.out.println(Arrays.asList());
+        System.out.println(Arrays.asList());*/
     }
-}
+
 
 
 /*
