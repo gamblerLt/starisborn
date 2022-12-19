@@ -7,7 +7,11 @@ import java.util.LinkedList;
 import java.util.List;
 
 
-public class Koordinate{
+public class Koordinate {
+
+    public String toString() {
+        return "X: "+this.x+" "+"Y: "+this.y;
+    }
     public static void main(String[] args) {
 
         List<Koordinate> coordinates = new ArrayList<>();
@@ -18,13 +22,22 @@ public class Koordinate{
         coordinates.add(new Koordinate(9, 1));
         coordinates.add(new Koordinate(2, 5));
 
-        System.out.println(coordinates);
-        //pakeisti indeksa 4 - 0, 0:
-        coordinates.remove(3);
-        coordinates.add(2, new Koordinate(1,1));
-        System.out.println(Arrays.asList());
+        System.out.println(coordinates.toString());
 
-          }
+        //System.out.println(Arrays.asList());
+        /*
+        String list = coordinates.toString();
+
+        System.out.println(list);*/
+
+        /*System.out.println(coordinates.get(x).toString());
+        System.out.println(coordinates.get(y).toString());*/
+        //pakeisti indeksa 4 - 0, 0:
+     /*   coordinates.remove(3);
+        coordinates.add(2, new Koordinate(1, 1));
+        System.out.println(Arrays.asList());*/
+
+    }
 
     private static int x;
     private static int y;
@@ -61,7 +74,24 @@ public class Koordinate{
         return listas;
     }*/
 
+ //   @Override
+    /*public String toString() {
+        return toString();*/
+        //return "x" + x + "y" + y;
+        //return this.getX() + " + " + this.getY();
+        /*
+        * @Override
+    public String toString() {
+        return "Country{" +
+                "name='" + name + '\'' +
+                ", continent='" + continent + '\'' +
+                ", population=" + population +
+                '}';
+    }*/
+
+
     }
+
 
 
 
