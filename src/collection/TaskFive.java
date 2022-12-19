@@ -28,7 +28,7 @@ public class TaskFive {
         //2 variantas
 
         arr.indexOf(findWord);
-        System.out.println("Suradauzodi: " + findWord);
+        System.out.println("Suradau zodi: " + findWord);
 
 
 
