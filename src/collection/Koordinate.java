@@ -1,53 +1,64 @@
 package collection;
-
-import java.awt.*;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.LinkedList;
 import java.util.List;
 
 
-public class Koordinate {
+class Iksy {
+
+    private int x;
+    private int y;
+
+    Iksy(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+
 
     public String toString() {
-        return "X: "+this.x+" "+"Y: "+this.y;
+        return "X reiksme: " + this.x  + "  -  " + "Y reiksme: " + this.y;
     }
+}
+
+public class Koordinate {
     public static void main(String[] args) {
 
-        List<Koordinate> coordinates = new ArrayList<>();
-        coordinates.add(new Koordinate(1, 5));
-        coordinates.add(new Koordinate(5, 9));
-        coordinates.add(new Koordinate(4, 0));
-        coordinates.add(new Koordinate(0, 0));
-        coordinates.add(new Koordinate(9, 1));
-        coordinates.add(new Koordinate(2, 5));
+        ArrayList<Iksy> coordinates = new ArrayList<Iksy>();
+        coordinates.add(new Iksy(1, 5));
+        coordinates.add(new Iksy(5, 9));
+        coordinates.add(new Iksy(4, 0));
+        coordinates.add(new Iksy(0, 0));
+        coordinates.add(new Iksy(9, 1));
+        coordinates.add(new Iksy(2, 5));
 
-        System.out.println(coordinates.toString());
+       // coordinates.add(5, new Iksy(10,100));
+        coordinates.remove(5);
+        coordinates.add(5, new Iksy(50,50));
+        for(Iksy koord: coordinates){
+            System.out.println(koord);
 
-        //System.out.println(Arrays.asList());
-        /*
-        String list = coordinates.toString();
 
-        System.out.println(list);*/
 
-        /*System.out.println(coordinates.get(x).toString());
-        System.out.println(coordinates.get(y).toString());*/
+        }
+        //for (i =0;)
+
+    }
+}
+
+
         //pakeisti indeksa 4 - 0, 0:
      /*   coordinates.remove(3);
         coordinates.add(2, new Koordinate(1, 1));
         System.out.println(Arrays.asList());*/
 
-    }
 
-    private static int x;
-    private static int y;
+
 
    /* public Koordinate(int x, int y){
         this.x = x;
         this.y = y;
     }*/
 
-    public Koordinate(int x, int y) {
+   /* public Koordinate(int x, int y) {
         this.x = x;
         this.y = y;
     }
@@ -66,7 +77,7 @@ public class Koordinate {
 
     public void setY(int y) {
         this.y = y;
-    }
+    }*/
 
     /*Koordinate listas = new Koordinate();
 
@@ -90,7 +101,7 @@ public class Koordinate {
     }*/
 
 
-    }
+
 
 
 

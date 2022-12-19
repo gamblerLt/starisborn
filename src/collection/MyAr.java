@@ -5,8 +5,8 @@ import java.util.List;
 
 public class MyAr {
 
-    public void eks(){
-        int x;
+    private static void eks(int x){
+
     }
 
     public static void main(String[] args) {
