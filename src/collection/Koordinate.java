@@ -18,6 +18,12 @@ public class Koordinate{
         coordinates.add(new Koordinate(9, 1));
         coordinates.add(new Koordinate(2, 5));
 
+        System.out.println(coordinates);
+        //pakeisti indeksa 4 - 0, 0:
+        coordinates.remove(3);
+        coordinates.add(2, new Koordinate(1,1));
+        System.out.println(Arrays.asList());
+
           }
 
     private static int x;
@@ -55,11 +61,6 @@ public class Koordinate{
         return listas;
     }*/
 
-   /* System.out.println(coordinates);
-        //pakeisti indeksa 4 - 0, 0:
-        coordinates.remove(3);
-        coordinates.add(2, new Koordinate(1,1));
-        System.out.println(Arrays.asList());*/
     }
 
 
