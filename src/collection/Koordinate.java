@@ -37,21 +37,23 @@ public class Koordinate {
             System.out.println(koord);
             //System.out.println(coordinates.size());
 
-
+            /*
+            * For (Iksy kord : coordinates){
+System.out.println(coordinates.indexOf(kord) +1)
+Kord.setx(1);
+Kord.setY(1);
+Break;
+}*/
 
         }
-        //for (i =0;)
 
     }
 }
-
 
         //pakeisti indeksa 4 - 0, 0:
      /*   coordinates.remove(3);
         coordinates.add(2, new Koordinate(1, 1));
         System.out.println(Arrays.asList());*/
-
-
 
 
    /* public Koordinate(int x, int y){
@@ -100,11 +102,6 @@ public class Koordinate {
                 ", population=" + population +
                 '}';
     }*/
-
-
-
-
-
 
 
 /*
