@@ -9,7 +9,8 @@ public class HmapTaskOne {
     public static void main(String[] args) {
         HmapTaskOne taskOne = new HmapTaskOne();
         taskOne.mapTask();
-       // taskOne.System.out.println(HashMap<Integer, String> number = new HashMap<>());
+
+       // taskOne.printMap;
 
 
 
@@ -24,10 +25,11 @@ public class HmapTaskOne {
         number.put(5, "Penki");
 
 
-        System.out.println(number.entrySet());
-        System.out.println(number.keySet());
-        System.out.println(number.containsKey(4));
-        System.out.println(number.containsValue(10));
+        System.out.println("HasMap (number): " + number);
+        System.out.println("entrySet: " + number.entrySet());
+        System.out.println("keySet: " + number.keySet());
+        System.out.println("containsKey pvz ->(4): " + number.containsKey(4));
+        System.out.println("containsValue pvz-> (10): " + number.containsValue(10));
 
         Set set = number.entrySet();
         Iterator iterator = set.iterator();
@@ -35,7 +37,17 @@ public class HmapTaskOne {
             Map.Entry mentry = (Map.Entry)iterator.next();
             System.out.println("Key is " + mentry.getKey() + " & value is " + mentry.getValue());
 
+            //mapTask.printMap(number);
 
+
+        }
+//2 uzduotis
+
+
+        }
+        private void printMap(Map<Integer, String> map){
+        for(Integer key: map.keySet()){
+            System.out.println(key + map.get(key));
         }
 
 

@@ -2,16 +2,14 @@ package collection.map;
 
 import org.w3c.dom.ls.LSOutput;
 
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class MapExample {
     public static void main(String[] args) {
         MapExample example = new MapExample();
         example.hashMapExample();
         example.linkedHashMap();
+        example.treeMapExample();
 
     }
     private void hashMapExample(){
@@ -40,6 +38,24 @@ public class MapExample {
         prices.forEach((k, v) ->System.out.printf("%s-%s%n", k, v));
     }
     private void treeMapExample(){
+
+        Map<Integer, String >names = new TreeMap<>();
+        names.put(3, "Jonas");
+
+        for(Integer key: names.keySet()){
+            System.out.println(key); //cia nespejau parsyti, turi buti 1 eiluteje
+            System.out.println(names.get(key));
+
+        }
+      /*  Map<User, Integer>users = new TreeMap<>();
+        users.put(new User(5,"Jonas")50);
+        users.put(new User(5,"Jonas")50);
+        users.put(new User(5,"Jonas")50);
+        users.put(new User(5,"Jonas")50);
+        users.forEach((k, v) -> System.out.println(k + v); //reikia overaidinti ->.>>>> user.java
+
+        */
+
 
     }
 }
