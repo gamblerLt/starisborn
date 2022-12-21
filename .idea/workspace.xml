@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fce5b895-53bd-4d0a-afa1-daf6d1453039" name="Changes" comment="HomeLast-15-D">
-      <change afterPath="$PROJECT_DIR$/src/collection/EncodeClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/list/set/FourthTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/list/set/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/map/HmTaskThree.java" afterDir="false" />
+    <list default="true" id="fce5b895-53bd-4d0a-afa1-daf6d1453039" name="Changes" comment="Home20dnightmare">
+      <change afterPath="$PROJECT_DIR$/src/collection/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/StudentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/map/HmapTaskOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/map/HmapTaskOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/map/MapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/map/MapExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/EncodeClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/EncodeClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Record" />
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -64,7 +61,20 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FourthTask">
+  <component name="RunManager" selected="Application.StudentTest">
+    <configuration name="EncodeClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.EncodeClass" />
+      <module name="starisborn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FourthTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collection.list.set.FourthTask" />
       <module name="starisborn" />
@@ -104,25 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.map.MapExample" />
+    <configuration name="StudentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.StudentTest" />
       <module name="starisborn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.map.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TaskSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.list.set.TaskSet" />
-      <module name="starisborn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collection.list.set.*" />
+          <option name="PATTERN" value="collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentTest" />
+        <item itemvalue="Application.EncodeClass" />
         <item itemvalue="Application.FourthTask" />
         <item itemvalue="Application.HmTaskThree" />
         <item itemvalue="Application.HmapTaskOne" />
-        <item itemvalue="Application.MapExample" />
-        <item itemvalue="Application.TaskSet" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +225,13 @@
       <option name="presentableId" value="LOCAL−00012" />
       <updated>1671075267579</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL−00013" summary="Home20dnightmare">
+      <created>1671566676915</created>
+      <option name="number" value="LOCAL−00013" />
+      <option name="presentableId" value="LOCAL−00013" />
+      <updated>1671566676915</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +256,8 @@
     <MESSAGE value="kolekcijosStr" />
     <MESSAGE value="removintiListaOver5" />
     <MESSAGE value="19d" />
-    <option name="LAST_COMMIT_MESSAGE" value="19d" />
+    <MESSAGE value="Home20dnightmare" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home20dnightmare" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
