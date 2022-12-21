@@ -47,7 +47,7 @@ public class HmapTaskOne {
         }
         private void printMap(Map<Integer, String> map){
         for(Integer key: map.keySet()){
-            System.out.println(key + map.get(key));
+            System.out.println("eilute tikrinimui " + key + map.get(key));
         }
 
 
