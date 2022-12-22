@@ -11,7 +11,7 @@ public class StudentTest {
             "Kas yra bunkeris?,Gyvunas,Pastatas,Vaisius,2;Ka geria antis?,Piena,Alu,Vandeni,3;Is ko gaminami cepelinai?,Is morku,Is pomidoru,Is bulviu,3";
 
     private final Map<Integer, Question> questions = new HashMap<>();
-    int count = 1;
+
     public static void main(String[] args) {
         StudentTest task = new StudentTest();
         task.fillUpQuestionsMap();
@@ -31,34 +31,58 @@ public class StudentTest {
         System.out.println("Kazkas ne taip ...");
         }
 
-
     }
     private int getStudentMark(Set<Question>questionsForUser){
         Scanner sc = new Scanner(System.in);
         int questionCount = 1;
         int mark = 0;
-        for(Question q: questionsForUser){
+        for(Question q: questionsForUser) {
             System.out.println(questionCount++ + q.question());
             int aCount = 1;
-            for(String a: q.answers()){
+            for (String a : q.answers()) {
                 System.out.println(aCount++ + a);
             }
             int userAnswer = sc.nextInt(); // todo kad neivestu stringo arba didesnio skaiciaus nei yra atsakymu
-            if(userAnswer == q.correctAnswer()){
+
+
+           /* while (!sc.hasNextInt()) {
+                sc.nextInt();
+                System.out.println("Prasome ivesti skaiciu");
+            }
+            userAnswer = sc.nextInt();*/
+
+            /*
+            * while(!scan.hasNextInt()) { //repeat until a number is entered.
+    scan.next();
+    System.out.println("Enter number"); //Tell it's not a number.
+}
+int input = scan.nextInt();*/
+            if (userAnswer == q.correctAnswer()) {
                 mark++;
 
-                }
-                if(userAnswer > aCount){
+            }
+            if (userAnswer > aCount) {
+                System.out.println("Tiek atsakymu nera");
+
+                return userAnswer = sc.nextInt();
+
+            }
+        }
+
+        return mark;
+    }
+    /*
+     if(userAnswer > aCount){
                     System.out.println("Tiek atsakymu nera");
 
                     return sc.nextInt();
 
             }
 
-        } return mark;
 
-    }
-    /*  do
+
+
+     do
     {
       try
       {
@@ -79,7 +103,6 @@ public class StudentTest {
         System.out.println("The Integer Value Entered is "+n);
 
     }*/
-
     private Set<Question>getQuestionsForUser(){
         Set<Question> uniqueQuestions = new LinkedHashSet<>();
 
@@ -100,13 +123,18 @@ public class StudentTest {
     //reikia metodo uzpildyti mapa
     private void fillUpQuestionsMap(){
         String[] questionsSplit = QUESTIONS.split(";");
+        int count = 1;
         for (String q: questionsSplit){
             //q -.. Kas yra obuolys? ...Vaisius, 3
             System.out.println(q);
             String[] qSplit = q.split(",");
-            //paaiskinimai pas andriu faile
+            //qsplit -. kas yra obuolys
+            //1. gyvunas
+            //2. pastatas
+            //3. vaisius
+            //4. kazkas
+            //5 .4
             List<String> answers = Arrays.stream(qSplit).toList().subList(1, qSplit.length -1);
-
 
 
             Question question = new Question(qSplit[0], answers, Integer.parseInt(qSplit[qSplit.length - 1]));
