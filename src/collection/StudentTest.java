@@ -43,6 +43,7 @@ public class StudentTest {
                 System.out.println(aCount++ + a);
             }
             int userAnswer = sc.nextInt(); // todo kad neivestu stringo arba didesnio skaiciaus nei yra atsakymu
+<<<<<<< HEAD
 
 
            /* while (!sc.hasNextInt()) {
@@ -74,6 +75,43 @@ int input = scan.nextInt();*/
     /*
      if(userAnswer > aCount){
                     System.out.println("Tiek atsakymu nera");
+=======
+            if(userAnswer == q.correctAnswer()){
+                mark++;
+
+                }
+                if(userAnswer > aCount){
+                    System.out.println("Tiek atsakymu nera");
+
+                    return sc.nextInt();
+
+            }
+
+        } return mark;
+
+    }
+    /*  do
+    {
+      try
+      {
+                                Scanner sc = new Scanner(System.in);
+        System.out.println("Enter integer value only  ");
+        n=sc.nextInt();
+        flag=false;
+      }
+      catch(Exception e)
+      {
+        // accept integer only.
+        System.out.println("Enter only integer value.."+e);
+        flag=true;
+      }
+    }
+    while(flag);
+
+        System.out.println("The Integer Value Entered is "+n);
+
+    }*/
+>>>>>>> 210d850a7039a5c81392091c6f03b0f5141f7fe3
 
                     return sc.nextInt();
 
