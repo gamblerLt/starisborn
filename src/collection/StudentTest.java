@@ -46,11 +46,39 @@ public class StudentTest {
             int userAnswer = sc.nextInt(); // todo kad neivestu stringo arba didesnio skaiciaus nei yra atsakymu
             if(userAnswer == q.correctAnswer()){
                 mark++;
+
+                }
+                if(userAnswer > aCount){
+                    System.out.println("Tiek atsakymu nera");
+
+                    return sc.nextInt();
+
             }
 
-        }
-        return mark;
+        } return mark;
+
     }
+    /*  do
+    {
+      try
+      {
+                                Scanner sc = new Scanner(System.in);
+        System.out.println("Enter integer value only  ");
+        n=sc.nextInt();
+        flag=false;
+      }
+      catch(Exception e)
+      {
+        // accept integer only.
+        System.out.println("Enter only integer value.."+e);
+        flag=true;
+      }
+    }
+    while(flag);
+
+        System.out.println("The Integer Value Entered is "+n);
+
+    }*/
 
     private Set<Question>getQuestionsForUser(){
         Set<Question> uniqueQuestions = new LinkedHashSet<>();
