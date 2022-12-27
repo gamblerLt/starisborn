@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fce5b895-53bd-4d0a-afa1-daf6d1453039" name="Changes" comment="Home20dnightmare">
-      <change afterPath="$PROJECT_DIR$/src/collection/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/StudentTest.java" afterDir="false" />
+    <list default="true" id="fce5b895-53bd-4d0a-afa1-daf6d1453039" name="Changes" comment="HomeAfteXmas1">
+      <change afterPath="$PROJECT_DIR$/src/paveldejimas/abstrakcios/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paveldejimas/abstrakcios/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paveldejimas/abstrakcios/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paveldejimas/abstrakcios/MainAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paveldejimas/abstrakcios/trainingone/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paveldejimas/abstrakcios/trainingone/MainTransport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paveldejimas/abstrakcios/trainingone/Transport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paveldejimas/abstrakcios/trainingone/Truck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/EncodeClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/EncodeClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -36,7 +41,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -61,13 +66,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StudentTest">
-    <configuration name="EncodeClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.EncodeClass" />
+  <component name="RunManager" selected="Application.MainAnimal">
+    <configuration name="AsdiMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="paveldejimas.taskasdi.AsdiMain" />
       <module name="starisborn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.*" />
+          <option name="PATTERN" value="paveldejimas.taskasdi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FourthTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.list.set.FourthTask" />
+    <configuration name="FruitMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="paveldejimas.vaisiai.FruitMain" />
       <module name="starisborn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.list.set.*" />
+          <option name="PATTERN" value="paveldejimas.vaisiai.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HmTaskThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.map.HmTaskThree" />
+    <configuration name="KuciuMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="paveldejimas.kuciutask.KuciuMain" />
       <module name="starisborn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.map.*" />
+          <option name="PATTERN" value="paveldejimas.kuciutask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HmapTaskOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.map.HmapTaskOne" />
+    <configuration name="MainAnimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="paveldejimas.abstrakcios.MainAnimal" />
       <module name="starisborn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.map.*" />
+          <option name="PATTERN" value="paveldejimas.abstrakcios.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.StudentTest" />
+    <configuration name="StudentasMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="paveldejimas.tasks.asmuostudentas.StudentasMain" />
       <module name="starisborn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.*" />
+          <option name="PATTERN" value="paveldejimas.tasks.asmuostudentas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StudentTest" />
-        <item itemvalue="Application.EncodeClass" />
-        <item itemvalue="Application.FourthTask" />
-        <item itemvalue="Application.HmTaskThree" />
-        <item itemvalue="Application.HmapTaskOne" />
+        <item itemvalue="Application.MainAnimal" />
+        <item itemvalue="Application.KuciuMain" />
+        <item itemvalue="Application.FruitMain" />
+        <item itemvalue="Application.AsdiMain" />
+        <item itemvalue="Application.StudentasMain" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +236,13 @@
       <option name="presentableId" value="LOCAL−00013" />
       <updated>1671566676915</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL−00014" summary="Home21dnightmare">
+      <created>1671653684543</created>
+      <option name="number" value="LOCAL−00014" />
+      <option name="presentableId" value="LOCAL−00014" />
+      <updated>1671653684543</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +268,9 @@
     <MESSAGE value="removintiListaOver5" />
     <MESSAGE value="19d" />
     <MESSAGE value="Home20dnightmare" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home20dnightmare" />
+    <MESSAGE value="Home21dnightmare" />
+    <MESSAGE value="HomeAfteXmas1" />
+    <option name="LAST_COMMIT_MESSAGE" value="HomeAfteXmas1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
