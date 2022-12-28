@@ -1,4 +1,3 @@
-/*
 package paveldejimas.abstrakcios.trainingthree;
 
 public class StudentThree extends PersonThree{
@@ -9,8 +8,8 @@ public class StudentThree extends PersonThree{
     }
 
     @Override
-    public String toString() {
-        return super.toString();
+    public void printInfo() {
+        System.out.println(this);
     }
 }
-*/
+

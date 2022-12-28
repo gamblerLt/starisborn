@@ -1,4 +1,3 @@
-/*
 package paveldejimas.abstrakcios.trainingthree;
 
 import java.util.ArrayList;
@@ -14,19 +13,22 @@ public abstract class PersonThree {
         this.surname = surname;
     }
 
+    public abstract void printInfo();
+
     @Override
     public String toString() {
-        return super.toString();
+        return String.format("name: %s, surname %s", name, surname);
     }
 
     public boolean isValuesUnique(List<PersonThree> persons){
         List<PersonThree> uniquePersons = new ArrayList<>();
         for (PersonThree p: persons){
-            if(!uniquePersons.contains(p)){
-                uniquePersons.add(p);
+            if(uniquePersons.contains(p)){
+                return  false;
             }
+            uniquePersons.add(p);
         }
-        return  persons.size() == uniquePersons.size();
+        return true;
     }
 }
-*/
+
