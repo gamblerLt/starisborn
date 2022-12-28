@@ -1,4 +1,3 @@
-/*
 package paveldejimas.abstrakcios.trainingone;
 
 import java.time.LocalDate;
@@ -10,16 +9,20 @@ public class Car extends  Transport {
 
     public Car(LocalDate registrationDate, double capacity, String color) {
         super(registrationDate, color);
-        this.capacity = capacity();
+        this.capacity = capacity;
     }
-    public double getCapacity(){
-        return capacity;*/
-/**//*
+
+    public double getCapacity() {
+        return capacity;
 
     }
 
-    public void go(){
+    @Override
+    public void go() {
         System.out.println("Auto vaziuoja");
     }
 }
-*/
+
+
+
+

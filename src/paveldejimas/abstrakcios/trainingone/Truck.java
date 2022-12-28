@@ -1,11 +1,9 @@
-/*
 package paveldejimas.abstrakcios.trainingone;
 
 import java.time.LocalDate;
 
 public class Truck extends  Transport {
     private final double maxWeight;
-
 
     public Truck(LocalDate registrationDate, double maxWeight, String color){
         super(registrationDate, color);
@@ -23,4 +21,4 @@ public class Truck extends  Transport {
 
 }
 
-*/
+
