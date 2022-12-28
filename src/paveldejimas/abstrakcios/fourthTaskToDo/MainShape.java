@@ -1,21 +1,15 @@
 package paveldejimas.abstrakcios.fourthTaskToDo;
 
+import java.sql.SQLOutput;
+
 public class MainShape {
     public static void main(String[] args) {
+        Shape k = new Quadrate(5+5+5+5,5*5);
+        Shape a = new Circle(2*3.14*8,3.14*(8*8));
 
-
-
+        System.out.println("Kvadratos duomenys: ");
+        k.printPerimeterArea();
+        System.out.println("Apskritimo duomenys: ");
+        a.printPerimeterArea();
     }
 }
-
-/*
-*  public static void main(String[] args) {
-        Transport t = new Car(LocalDate.of(2022, 10, 02), 5.1,"Raudona");
-            t.printRegistrationDate();
-            t.go();
-
-            Transport t2 = new Truck(LocalDate.of(2021, 10, 11), 258, "Black");
-                t2.printRegistrationDate();
-                t2.go();
-            }
-        }*/

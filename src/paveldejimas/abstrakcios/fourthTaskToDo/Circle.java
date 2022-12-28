@@ -6,25 +6,8 @@ public class Circle extends Shape{
 
 
     }
-
-}
-/*
-* public class Truck extends  Transport {
-    private final double maxWeight;
-
-    public Truck(LocalDate registrationDate, double maxWeight, String color){
-        super(registrationDate, color);
-        this.maxWeight = maxWeight;
-
-    }
-
-    public  double getMaxWeight(){
-        return  maxWeight;
-    }
     @Override
-    public void go(){
-        System.out.println("Sunkvezimis vaziuoja");
+    public void printPerimeterArea() {
+        super.printPerimeterArea();
     }
-
 }
-*/

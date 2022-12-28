@@ -9,23 +9,7 @@ public abstract  class Shape {
         this.area = area;
     }
    public void printPerimeterArea(){
-       System.out.println("Perimetras" + perimeter + area);//??
+       System.out.println("Perimetras " + perimeter + " plotas " +area);
+
    }
 }
-/*
-* public abstract class Transport {
-    private final LocalDate registrationDate;
-    private final String color;
-
-    public Transport(LocalDate registrationDate, String color) {
-        this.registrationDate = registrationDate;
-        this.color = color;
-    }
-    public void printRegistrationDate(){
-        System.out.println(registrationDate.format(DateTimeFormatter.ofPattern("yyyy-MM-dd")));
-    }
-    public String getColor(){
-        return color;
-    }
-    public abstract void go();
-}*/
