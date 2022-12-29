@@ -1,70 +1,18 @@
 package paveldejimas.interfaces.task;
 
+import jdk.dynalink.linker.LinkerServices;
+
 public class MainVehicle {
     public static void main(String[] args) {
-        SeaVehicle sea = new SeaVehicle() {
-            @Override
-            public int getDisplacement() {
-                return getDisplacement();
-            }
+       Fregata fregata  = new Fregata(50, "Testukas",10,52);
+     //  Hovercraft hovercraft = new Hovercraft(5,5,"Pavadinimas",6);
+       //Jeep jeep = new Jeep("jeep",)
 
-            @Override
-            public void setDisplacement(int displacement) {
+        SeaVehicle fregata2 = new Fregata(20,"Fregata",6,8);
 
-            }
+       // Li su dzipu ar viiklu kazkas dar blogai
 
-            @Override
-            public void launch() {
-
-            }
-
-            @Override
-            public String getName() {
-                return null;
-            }
-
-            @Override
-            public void setName(String name) {
-
-            }
-
-            @Override
-            public int getMaxPassengers() {
-                return 0;
-            }
-
-            @Override
-            public void setMaxPassengers(int maxPassengers) {
-
-            }
-
-            @Override
-            public int getMaxSpeed() {
-                return 0;
-            }
-
-            @Override
-            public void setMaxSpeed(int speed) {
-
-            }
-        };
-
-
-
-        //TODO sukurti objektus ir ... yra uzduotis ikelta gite. araylisto pva ir pan darem 27 d.
-
-        /*
-        * TODO at home create object
-		 Main metode sukurti keletą įvairų objektų ir  sudėti juos į masyvą arba ArrayListą
-		 Iteruoti visus masyvo objektus ir patikrinti kokio  tipo tas objektas yra (instanceof)
-		 Kiekvienam elemetui kviesti jam galimus
-		 metodus prieš tai pakeitus jo tipą (cast)*/
-        //ND 21 uzduotis su emergency.
-
-
-        //nepamirsti 4 uzduoties is interface.
-
-
+        //uzduoti reikia pasidaryt, sake svarbu
 
     }
 }

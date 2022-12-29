@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fce5b895-53bd-4d0a-afa1-daf6d1453039" name="Changes" comment="HomeAfteXmas1">
-      <change afterPath="$PROJECT_DIR$/src/paveldejimas/abstrakcios/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paveldejimas/abstrakcios/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paveldejimas/abstrakcios/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paveldejimas/abstrakcios/MainAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paveldejimas/abstrakcios/trainingone/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paveldejimas/abstrakcios/trainingone/MainTransport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paveldejimas/abstrakcios/trainingone/Transport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paveldejimas/abstrakcios/trainingone/Truck.java" afterDir="false" />
+    <list default="true" id="fce5b895-53bd-4d0a-afa1-daf6d1453039" name="Changes" comment="HomeAfteXmas3">
+      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/EvenNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/OddNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/PositiveNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/ensurancetask/CarInsurance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/ensurancetask/Insurance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/ensurancetask/KaskoInsurance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/ensurancetask/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/ensurancetask/TPVCAInsurance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/secondtask/Aclas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/secondtask/Bclas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/secondtask/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/secondtask/Xclas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/thirdtask/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/thirdtask/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/thirdtask/L.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/thirdtask/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/thirdtask/S.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/paveldejimas/interfaces/task/MainVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/paveldejimas/interfaces/task/MainVehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +37,7 @@
       <list>
         <option value="Enum" />
         <option value="Record" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -66,13 +79,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MainAnimal">
-    <configuration name="AsdiMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="paveldejimas.taskasdi.AsdiMain" />
+  <component name="RunManager" selected="Application.paveldejimas.paskutinemetud.ensurancetask.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="paveldejimas.paskutinemetud.secondtask.Main" />
       <module name="starisborn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="paveldejimas.taskasdi.*" />
+          <option name="PATTERN" value="paveldejimas.paskutinemetud.secondtask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FruitMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="paveldejimas.vaisiai.FruitMain" />
+    <configuration name="MainShape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="paveldejimas.abstrakcios.fourthTaskToDo.MainShape" />
       <module name="starisborn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="paveldejimas.vaisiai.*" />
+          <option name="PATTERN" value="paveldejimas.abstrakcios.fourthTaskToDo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KuciuMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="paveldejimas.kuciutask.KuciuMain" />
+    <configuration name="paveldejimas.abstrakcios.todoAgainFourthTask.MainShape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="paveldejimas.abstrakcios.todoAgainFourthTask.MainShape" />
       <module name="starisborn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="paveldejimas.kuciutask.*" />
+          <option name="PATTERN" value="paveldejimas.abstrakcios.todoAgainFourthTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainAnimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="paveldejimas.abstrakcios.MainAnimal" />
+    <configuration name="paveldejimas.paskutinemetud.ensurancetask.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="paveldejimas.paskutinemetud.ensurancetask.Main" />
       <module name="starisborn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="paveldejimas.abstrakcios.*" />
+          <option name="PATTERN" value="paveldejimas.paskutinemetud.ensurancetask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentasMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="paveldejimas.tasks.asmuostudentas.StudentasMain" />
+    <configuration name="paveldejimas.paskutinemetud.thirdtask.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="paveldejimas.paskutinemetud.thirdtask.Main" />
       <module name="starisborn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="paveldejimas.tasks.asmuostudentas.*" />
+          <option name="PATTERN" value="paveldejimas.paskutinemetud.thirdtask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainAnimal" />
-        <item itemvalue="Application.KuciuMain" />
-        <item itemvalue="Application.FruitMain" />
-        <item itemvalue="Application.AsdiMain" />
-        <item itemvalue="Application.StudentasMain" />
+        <item itemvalue="Application.paveldejimas.paskutinemetud.ensurancetask.Main" />
+        <item itemvalue="Application.paveldejimas.paskutinemetud.thirdtask.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MainShape" />
+        <item itemvalue="Application.paveldejimas.abstrakcios.todoAgainFourthTask.MainShape" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +255,13 @@
       <option name="presentableId" value="LOCAL−00014" />
       <updated>1671653684543</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL−00015" summary="HomeAfteXmas2">
+      <created>1672162506502</created>
+      <option name="number" value="LOCAL−00015" />
+      <option name="presentableId" value="LOCAL−00015" />
+      <updated>1672162506502</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +289,9 @@
     <MESSAGE value="Home20dnightmare" />
     <MESSAGE value="Home21dnightmare" />
     <MESSAGE value="HomeAfteXmas1" />
-    <option name="LAST_COMMIT_MESSAGE" value="HomeAfteXmas1" />
+    <MESSAGE value="HomeAfteXmas2" />
+    <MESSAGE value="HomeAfteXmas3" />
+    <option name="LAST_COMMIT_MESSAGE" value="HomeAfteXmas3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
