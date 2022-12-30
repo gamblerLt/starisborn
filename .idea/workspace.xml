@@ -1,28 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fce5b895-53bd-4d0a-afa1-daf6d1453039" name="Changes" comment="HomeAfteXmas3">
-      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/EvenNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/Number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/OddNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/PositiveNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/ensurancetask/CarInsurance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/ensurancetask/Insurance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/ensurancetask/KaskoInsurance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/ensurancetask/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/ensurancetask/TPVCAInsurance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/secondtask/Aclas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/secondtask/Bclas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/secondtask/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/secondtask/Xclas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/thirdtask/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/thirdtask/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/thirdtask/L.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/thirdtask/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/thirdtask/S.java" afterDir="false" />
+    <list default="true" id="fce5b895-53bd-4d0a-afa1-daf6d1453039" name="Changes" comment="lastDAy29">
+      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/NegativeNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/paveldejimas/interfaces/task/MainVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/paveldejimas/interfaces/task/MainVehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/EvenNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/EvenNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/Number.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/OddNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/OddNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/PositiveNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/PositiveNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +65,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.paveldejimas.paskutinemetud.ensurancetask.Main">
+  <component name="RunManager" selected="Application.paveldejimas.paskutinemetud.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="paveldejimas.paskutinemetud.secondtask.Main" />
       <module name="starisborn" />
@@ -106,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="paveldejimas.abstrakcios.todoAgainFourthTask.MainShape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="paveldejimas.abstrakcios.todoAgainFourthTask.MainShape" />
+    <configuration name="paveldejimas.paskutinemetud.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="paveldejimas.paskutinemetud.Main" />
       <module name="starisborn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="paveldejimas.abstrakcios.todoAgainFourthTask.*" />
+          <option name="PATTERN" value="paveldejimas.paskutinemetud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.paveldejimas.paskutinemetud.Main" />
         <item itemvalue="Application.paveldejimas.paskutinemetud.ensurancetask.Main" />
         <item itemvalue="Application.paveldejimas.paskutinemetud.thirdtask.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainShape" />
-        <item itemvalue="Application.paveldejimas.abstrakcios.todoAgainFourthTask.MainShape" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +247,13 @@
       <option name="presentableId" value="LOCAL−00015" />
       <updated>1672162506502</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL−00016" summary="lastDAy29">
+      <created>1672345841451</created>
+      <option name="number" value="LOCAL−00016" />
+      <option name="presentableId" value="LOCAL−00016" />
+      <updated>1672345841451</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,7 +283,8 @@
     <MESSAGE value="HomeAfteXmas1" />
     <MESSAGE value="HomeAfteXmas2" />
     <MESSAGE value="HomeAfteXmas3" />
-    <option name="LAST_COMMIT_MESSAGE" value="HomeAfteXmas3" />
+    <MESSAGE value="lastDAy29" />
+    <option name="LAST_COMMIT_MESSAGE" value="lastDAy29" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
