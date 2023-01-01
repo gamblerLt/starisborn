@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fce5b895-53bd-4d0a-afa1-daf6d1453039" name="Changes" comment="lastDAy29">
-      <change afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/NegativeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paveldejimas/taskthreeonesix/shaddow/DataBase2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paveldejimas/taskthreeonesix/shaddow/Info2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paveldejimas/taskthreeonesix/shaddow/Storage2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/EvenNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/EvenNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/Number.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/OddNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/OddNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/PositiveNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/paveldejimas/paskutinemetud/PositiveNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
