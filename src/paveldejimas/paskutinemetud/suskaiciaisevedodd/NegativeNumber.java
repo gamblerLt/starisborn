@@ -1,4 +1,4 @@
-package paveldejimas.paskutinemetud;
+package paveldejimas.paskutinemetud.suskaiciaisevedodd;
 
 import java.util.Random;
 

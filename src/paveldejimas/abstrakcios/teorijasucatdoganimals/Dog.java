@@ -1,4 +1,4 @@
-package paveldejimas.abstrakcios;
+package paveldejimas.abstrakcios.teorijasucatdoganimals;
 
 public class Dog extends  Animal{
 

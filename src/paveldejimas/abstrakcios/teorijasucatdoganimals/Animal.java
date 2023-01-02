@@ -1,4 +1,4 @@
-package paveldejimas.abstrakcios;
+package paveldejimas.abstrakcios.teorijasucatdoganimals;
 
 public abstract class Animal {
     // tai abstrakcios klases antraste ir neturi turinio arba kitaip tariant neturi body.

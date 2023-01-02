@@ -1,4 +1,4 @@
-package paveldejimas.paskutinemetud;
+package paveldejimas.paskutinemetud.suskaiciaisevedodd;
 
 public class Main {
     public static void main(String[] args) {
