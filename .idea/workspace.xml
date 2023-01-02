@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fce5b895-53bd-4d0a-afa1-daf6d1453039" name="Changes" comment="lastDAy29">
-      <change afterPath="$PROJECT_DIR$/src/paveldejimas/taskthreeonesix/shaddow/DataBase2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paveldejimas/taskthreeonesix/shaddow/Info2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paveldejimas/taskthreeonesix/shaddow/Storage2.java" afterDir="false" />
+    <list default="true" id="fce5b895-53bd-4d0a-afa1-daf6d1453039" name="Changes" comment="home230102Task">
+      <change afterPath="$PROJECT_DIR$/src/exeptions/ExeptionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nulis/taskOne/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nulis/taskOne/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nulis/taskOne/Town.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nulis/teorija/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,13 +64,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.paveldejimas.paskutinemetud.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="paveldejimas.paskutinemetud.secondtask.Main" />
+  <component name="RunManager" selected="Application.ExeptionExample">
+    <configuration name="ExeptionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exeptions.ExeptionExample" />
       <module name="starisborn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="paveldejimas.paskutinemetud.secondtask.*" />
+          <option name="PATTERN" value="exeptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainShape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="paveldejimas.abstrakcios.fourthTaskToDo.MainShape" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="paveldejimas.paskutinemetud.secondtask.Main" />
       <module name="starisborn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="paveldejimas.abstrakcios.fourthTaskToDo.*" />
+          <option name="PATTERN" value="paveldejimas.paskutinemetud.secondtask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExeptionExample" />
         <item itemvalue="Application.paveldejimas.paskutinemetud.Main" />
         <item itemvalue="Application.paveldejimas.paskutinemetud.ensurancetask.Main" />
         <item itemvalue="Application.paveldejimas.paskutinemetud.thirdtask.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MainShape" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +252,13 @@
       <option name="presentableId" value="LOCAL−00016" />
       <updated>1672345841451</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL−00017" summary="home230102Task">
+      <created>1672680316891</created>
+      <option name="number" value="LOCAL−00017" />
+      <option name="presentableId" value="LOCAL−00017" />
+      <updated>1672680316891</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +289,8 @@
     <MESSAGE value="HomeAfteXmas2" />
     <MESSAGE value="HomeAfteXmas3" />
     <MESSAGE value="lastDAy29" />
-    <option name="LAST_COMMIT_MESSAGE" value="lastDAy29" />
+    <MESSAGE value="home230102Task" />
+    <option name="LAST_COMMIT_MESSAGE" value="home230102Task" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -290,6 +299,11 @@
           <url>file://$PROJECT_DIR$/src/collection/Koordinate.java</url>
           <line>93</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/paveldejimas/taskthreeonesix/RemoteDisk.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
