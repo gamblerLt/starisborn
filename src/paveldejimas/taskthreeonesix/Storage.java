@@ -2,11 +2,11 @@ package paveldejimas.taskthreeonesix;
 
 public interface Storage {
 
-   void saveInfo();
+   void saveInfo(Info info);
 
-   int findInfo(int Id);
+   Info findInfo(int Id);
 
-   String findStringInfo(String textInfo);
+   Info findInfo(String text);
 
 
 }

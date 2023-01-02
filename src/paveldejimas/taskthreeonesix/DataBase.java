@@ -1,3 +1,4 @@
+/*
 package paveldejimas.taskthreeonesix;
 
 import java.security.Key;
@@ -8,7 +9,7 @@ import java.util.Scanner;
 public class DataBase implements Storage {
 
     @Override
-    public void saveInfo() {
+    public void saveInfo(Info info) {
 
         HashMap<Integer, String> information = new HashMap<Integer, String>();
         boolean loopAgain = true;
@@ -41,6 +42,7 @@ public class DataBase implements Storage {
 
             System.out.println("Duomenu bazeje yra sie duomenys: " + information.get(id) + " " + information.get(text));
         }
+*/
 
 
         /*information.put(1,"Vienas");
@@ -50,7 +52,7 @@ public class DataBase implements Storage {
         information.put(5, "Penki");*/
 
 
-        @Override
+    /*    @Override
         public int findInfo ( int Id){
 
             //Scanner scanner = new Scanner(System.in);
@@ -82,7 +84,7 @@ public class DataBase implements Storage {
         }
     }
 
-}
+}*/
 
 
 /* saugotiInfo metodas išsaugo gautą Info objektą į HashMap

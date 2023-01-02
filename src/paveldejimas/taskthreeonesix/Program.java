@@ -1,7 +1,10 @@
-package paveldejimas.taskthreeonesix;
+/*package paveldejimas.taskthreeonesix;
 
 public class Program {
     public static void main(String[] args) {
+
+        private void
+                //metodai cia yra nestatiniai, nes destytojas sake, kad nera reikalo
 
         Storage storage = new Storage() {
             @Override
@@ -21,7 +24,7 @@ public class Program {
         };
 
     }
-}
+}*/
 /*Klasėje taip pat turi būti dar trys statiniai metodai
 • Metodas saugoti • Nieko negrąžina, bet priima Saugykla ir Info parametrus
 • Metodas iškviečia Saugyklos metodą saugotiInfo

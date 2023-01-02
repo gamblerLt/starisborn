@@ -1,12 +1,16 @@
 package paveldejimas.taskthreeonesix;
 
 public class Info {
-    int id;
-    String text;
+   private int id;
+    private String text;
 
     public Info(int id, String text) {
         this.id = id;
         this.text = text;
+    }
+
+    public boolean isContains(String text){
+        return this.text.contains(text);
     }
 
     public int getId() {
@@ -32,9 +36,9 @@ public class Info {
                 ", text='" + text + '\'' +
                 '}';
     }
-    String isInText = "Some text here"; //gali buti kazkoks inputas
+  /*  String isInText = "Some text here"; //gali buti kazkoks inputas
     boolean isIn = isInText.indexOf(text) != -1 ? true : false;
-
+*/
 }
 /*@Override
 	public String toString() {

@@ -1,22 +1,25 @@
-package paveldejimas.taskthreeonesix;
+/*package paveldejimas.taskthreeonesix;
 
 public class RemoteDisk implements Storage{
 
+    private final Lista<infos>
+
+
     @Override
-    public void saveInfo() {
+    public void saveInfo(Info info) {
 
     }
 
     @Override
-    public int findInfo(int Id) {
-        return 0;
+    public Info findInfo(int Id) {
+        return null;
     }
 
     @Override
     public String findStringInfo(String textInfo) {
         return null;
     }
-}
+}*/
 
 /*
 * Sukurti klasę NutolesDiskas, kuri įgyvendina Saugykla interfeisą
