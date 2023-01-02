@@ -7,20 +7,45 @@ import java.util.Scanner;
 
 public class DataBase implements Storage{
 
+    HashMap<Integer, String> information = new HashMap<Integer, String>();
+    boolean loopAgain = true;
+    Scanner sc = new Scanner(System.in);
+
+    do{
+
+        System.out.print("Įveskite ID");
+        Integer id = Integer.parseInt(sc.nextLine());
+
+        System.out.println("Įveskite tekstą");
+        String text = sc.nextLine();
+
+        String userInput = information.put(id, text);
+        if (userInput != null) {
+            System.out.println("Id =" + id + userInput + "Perrašyta į " + text);
+        }
+        System.out.println("Ar dar įvesite daugiau duomenų? T / N ");
+        String answer = sc.nextLine();
+
+        if (answer.equals("y") || answer.equals("Y")) {
+            continue;
+
+        }else {
+
+            break;
+        }
+        while (loopAgain) ;
+        sc.close();
+
+        System.out.println("Duomenu bazeje yra sie duomenys: " + information.get(id) + " " + information.get(text));
+
+
+    }
 
 
 
 
     @Override
     public void saveInfo() {
-
-        HashMap<Integer, String> information = new HashMap<>();
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Įveskite ID");
-        int id = Integer.parseInt(sc.nextLine());
-        System.out.println("Įveskite tekstą");
-        String text = sc.nextLine();
-
 
         /*information.put(1,"Vienas");
         information.put(2, "Du");
@@ -32,26 +57,36 @@ public class DataBase implements Storage{
     @Override
     public int findInfo(int Id) {
 
-        Scanner scanner = new Scanner(System.in);
+        //Scanner scanner = new Scanner(System.in);
 
         System.out.println("Iveskite Key reikšmę patikrinti ar tokia egzistuoja:");
-        int key = scanner.nextInt();
+        int key = sc.nextInt();
         if (information.containsKey(key)){
             System.out.println("Toks raktas yra!");
         }else{
-
+            System.out.println("Tokio rakto nėra, įveskite kitą raktą:");
         }
-        return 0;
+        return sc.nextInt();
 
 
     }
 
     @Override
     public String findStringInfo(String textInfo) {
-        return null;
+        // Scanner scanner = new Scanner(System.in);
+        System.out.println("Kokio žodžio ieškote?");
+        String value = sc.nextLine();
+        if (information.containsValue(value)) {
+            System.out.println("Toks žodis yra");
+        } else {
+            System.out.println("Tokio žodžio nėra, įveskite kitą žodį");
+        }
+
+        return sc.nextLine();
     }
 
 }
+
 
 /* saugotiInfo metodas išsaugo gautą Info objektą į HashMap
 • Pirmasis rastiInfo metodas gauna Info iš map‘o pagal key (id) ir grąžina jį
