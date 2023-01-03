@@ -1,30 +1,29 @@
-/*package paveldejimas.taskthreeonesix;
+package paveldejimas.taskthreeonesix;
 
 public class Program {
     public static void main(String[] args) {
+        Program program = new Program();
+        DataBase dataBase = new DataBase();
+        RemoteDisk remoteDisk = new RemoteDisk();
+        Info info = new Info(1, "Pirmas");
+        Info secondInfo = new Info(2, "Geras");
 
-        private void
-                //metodai cia yra nestatiniai, nes destytojas sake, kad nera reikalo
-
-        Storage storage = new Storage() {
-            @Override
-            public void saveInfo() {
-
-            }
-
-            @Override
-            public int findInfo(int Id) {
-                return 0;
-            }
-
-            @Override
-            public String findStringInfo(String textInfo) {
-                return null;
-            }
-        };
+        program.save(dataBase, 1);
+        program.save(remoteDisk, 2);
+        program.find(dataBase, "Alo");
+        program.find(remoteDisk, "Info");
 
     }
-}*/
+    private void save(Storage storage, int id) {
+        Info info = storage.findInfo(id);
+        System.out.println("info");
+    }
+    private void find(Storage storage, String text) {
+        Info info = storage.findInfo(text);
+        System.out.println("info");
+    }
+}
+
 /*Klasėje taip pat turi būti dar trys statiniai metodai
 • Metodas saugoti • Nieko negrąžina, bet priima Saugykla ir Info parametrus
 • Metodas iškviečia Saugyklos metodą saugotiInfo

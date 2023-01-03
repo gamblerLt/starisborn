@@ -1,25 +1,45 @@
-/*package paveldejimas.taskthreeonesix;
+package paveldejimas.taskthreeonesix;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class RemoteDisk implements Storage{
 
-    private final Lista<infos>
+    private final List<Info> infos;
+    public RemoteDisk() {
+        infos = new ArrayList<>();
+    }
 
 
     @Override
     public void saveInfo(Info info) {
+        System.out.println("Saugoju i nutolusi diska");
+        infos.add(info);
 
     }
 
     @Override
     public Info findInfo(int Id) {
+        System.out.println("Rasta nutolusiame diske");
+        for(Info info: infos){
+            if(info.getId() == Id){
+                return info;
+            }
+        }
         return null;
     }
 
     @Override
-    public String findStringInfo(String textInfo) {
+    public Info findInfo(String text) {
+        System.out.println("Gautas elementas is saraso");
+        for(Info info: infos){
+            if(info.isContains(text)){
+                return info;
+            }
+        }
         return null;
     }
-}*/
+}
 
 /*
 * Sukurti klasę NutolesDiskas, kuri įgyvendina Saugykla interfeisą
