@@ -1,29 +1,23 @@
 package kartojimas;
 
-<<<<<<< HEAD
 public class Counter {
     public static void main(String[] args) {
 
-    }
-}
-=======
-public abstract class Counter {
-    public static void main(String[] args) {
-        int i = 2;
-        int increment = i++;
-        System.out.println("Tevinio rezultatas: " + i);
+            int i = 2;
+            int increment = i++;
+            System.out.println("Tevinio rezultatas: " + i);
 
-    }
-    public  void firstPrint(){
+        }
+        public void firstPrint () {
 
-        System.out.println("Cia yra private print");
-    }
-
-    /*public void cnt() {
+            System.out.println("Cia yra firstPrint");
+        }
+        public void cnt() {
                 int i = 5;
                 int increment = i++;
                 System.out.println("Vaikinio rezultatas: " + i);
-            }*/
+            }
+
 
 }
 
@@ -64,4 +58,4 @@ padidinti vienetu increment()
 -Parašyti klasę, kuri paveldi Counter klasę ir perrašo jos
 metodą increment() taip, kad metodas ne tik padidina i
 reikšmę, bet ir atspausdina i*/
->>>>>>> origin/master
+

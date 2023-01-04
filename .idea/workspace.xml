@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fce5b895-53bd-4d0a-afa1-daf6d1453039" name="Changes" comment="home230102Task">
-      <change afterPath="$PROJECT_DIR$/src/exeptions/ExeptionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nulis/taskOne/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nulis/taskOne/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nulis/taskOne/Town.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nulis/teorija/Main.java" afterDir="false" />
+    <list default="true" id="fce5b895-53bd-4d0a-afa1-daf6d1453039" name="Changes" comment="H23-01-03-21:55">
+      <change afterPath="$PROJECT_DIR$/src/kartojimas/sudatomis/Date.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kartojimas/sudatomis/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kartojimas/sudatomis/Month.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kartojimas/sudatomis/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kartojimas/sudatomis/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kartojimas/testrev/paveldejimas/abc/ClassA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kartojimas/testrev/paveldejimas/abc/ClassB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kartojimas/testrev/paveldejimas/abc/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kartojimas/traukinys/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kartojimas/traukinys/Passenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kartojimas/traukinys/Train.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kartojimas/traukinys/TrainExeption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kartojimas/traukinys/TrainState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kartojimas/traukinys/Transport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kartojimas/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kartojimas/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kartojimas/CounterChild.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kartojimas/CounterChild.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +31,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Record" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -64,13 +75,18 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ExeptionExample">
-    <configuration name="ExeptionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exeptions.ExeptionExample" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="kartojimas" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Date">
+    <configuration name="CounterChild" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kartojimas.testrev.CounterChild" />
       <module name="starisborn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exeptions.*" />
+          <option name="PATTERN" value="kartojimas.testrev.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="paveldejimas.paskutinemetud.secondtask.Main" />
+    <configuration name="Date" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kartojimas.sudatomis.Date" />
       <module name="starisborn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="paveldejimas.paskutinemetud.secondtask.*" />
+          <option name="PATTERN" value="kartojimas.sudatomis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="paveldejimas.paskutinemetud.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="paveldejimas.paskutinemetud.Main" />
+    <configuration name="MixLetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kartojimas.MixLetters" />
       <module name="starisborn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="paveldejimas.paskutinemetud.*" />
+          <option name="PATTERN" value="kartojimas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="paveldejimas.paskutinemetud.ensurancetask.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="paveldejimas.paskutinemetud.ensurancetask.Main" />
+    <configuration name="StrBuildTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stringbuilder.StrBuildTask" />
       <module name="starisborn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="paveldejimas.paskutinemetud.ensurancetask.*" />
+          <option name="PATTERN" value="stringbuilder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="paveldejimas.paskutinemetud.thirdtask.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="paveldejimas.paskutinemetud.thirdtask.Main" />
+    <configuration name="kartojimas.CounterChild" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kartojimas.CounterChild" />
       <module name="starisborn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="paveldejimas.paskutinemetud.thirdtask.*" />
+          <option name="PATTERN" value="kartojimas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ExeptionExample" />
-        <item itemvalue="Application.paveldejimas.paskutinemetud.Main" />
-        <item itemvalue="Application.paveldejimas.paskutinemetud.ensurancetask.Main" />
-        <item itemvalue="Application.paveldejimas.paskutinemetud.thirdtask.Main" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Date" />
+        <item itemvalue="Application.kartojimas.CounterChild" />
+        <item itemvalue="Application.CounterChild" />
+        <item itemvalue="Application.MixLetters" />
+        <item itemvalue="Application.StrBuildTask" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +274,19 @@
       <option name="presentableId" value="LOCAL−00017" />
       <updated>1672680316891</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL−00018" summary="home230102Task-Null">
+      <created>1672683293366</created>
+      <option name="number" value="LOCAL−00018" />
+      <option name="presentableId" value="LOCAL−00018" />
+      <updated>1672683293366</updated>
+    </task>
+    <task id="LOCAL−00019" summary="H23-01-03-19:06">
+      <created>1672765629131</created>
+      <option name="number" value="LOCAL−00019" />
+      <option name="presentableId" value="LOCAL−00019" />
+      <updated>1672765629131</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +318,10 @@
     <MESSAGE value="HomeAfteXmas3" />
     <MESSAGE value="lastDAy29" />
     <MESSAGE value="home230102Task" />
-    <option name="LAST_COMMIT_MESSAGE" value="home230102Task" />
+    <MESSAGE value="home230102Task-Null" />
+    <MESSAGE value="H23-01-03-19:06" />
+    <MESSAGE value="H23-01-03-21:55" />
+    <option name="LAST_COMMIT_MESSAGE" value="H23-01-03-21:55" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -302,7 +333,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/paveldejimas/taskthreeonesix/RemoteDisk.java</url>
-          <line>19</line>
+          <line>39</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
