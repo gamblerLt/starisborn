@@ -10,9 +10,9 @@ public class MixLetters {
         MixLetters mixLetters = new MixLetters();
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("1");
+        System.out.println("Iveskite 1 zodi");
         String a = scanner.nextLine();
-        System.out.println("2");
+        System.out.println("Iveskite 2 zodi");
         String b = scanner.nextLine();
         System.out.println(a.length() + "" + b.length());
         System.out.println(mixLetters.mixStrings(a, b));
