@@ -1,3 +1,4 @@
+/*
 package kartojimas.testrev;
 
 import kartojimas.Counter;
@@ -9,17 +10,13 @@ public class CounterChild extends Counter {
        // child.cnt();
         child.thirdPrint();
 
-        /* Child child = new Child();
-        child.print();
-        child.secondPrint();
-        child.test();*/
 
     }
-/*public void cnt() {
+ void cnt() {
         int i = 5;
         int increment = i++;
         System.out.println("Vaikinio rezultatas: " + i);
-    }*/
+    }
 @Override
 
     public  void thirdPrint(){
@@ -27,6 +24,7 @@ public class CounterChild extends Counter {
         System.out.println("Cia yra private print is vaiko");
     }
 }
+*/
 
 
 
