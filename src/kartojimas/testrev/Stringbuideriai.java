@@ -28,8 +28,11 @@ public class Stringbuideriai {
 
         System.out.println(zodis);
 
-        StringBuilder del = strBuild.delete(1,3);//antraszodis
-        System.out.println(del.toString());
+        //StringBuilder del = strBuild.delete(1,3);//antraszodis delete
+        //System.out.println(del.toString());
+
+        System.out.println(strBuild.reverse());
+        System.out.println(strBuild.replace(0,1, "x"));//0,1 atima pirma raide ir parepleisina tuo kas kabutese
     }
 
     }
