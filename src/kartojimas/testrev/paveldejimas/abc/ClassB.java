@@ -4,7 +4,8 @@ class ClassB extends ClassA{
 
     @Override
     public  void  metodas() {
-        System.out.println("A raide is ClassB");
+
+        System.out.println("A raide is ClassB kuti yra vaikine klase bet overaidina ");
     }
 
 }
