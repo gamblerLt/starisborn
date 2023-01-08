@@ -4,9 +4,13 @@ public class Stringbuideriai {
     public static void main(String[] args) {
 //https://www.geeksforgeeks.org/stringbuilder-class-in-java-with-examples/
 
-        StringBuilder strBuild = new StringBuilder("AntrasZodis");
+        StringBuilder strBuild = new StringBuilder("TestAS");
 
         String zodis = "Radviliskis";
+        strBuild.append(2018);
+        strBuild.replace(1,5, "2018");
+        strBuild.insert(5, "*");
+        System.out.println(strBuild);
 
         System.out.println(zodis.substring(0,11));
 

@@ -10,12 +10,12 @@ public class DataLaikas {
 
         LocalDateTime datatime = LocalDateTime.now();
 
-      //  System.out.println("Dabar yra: " + datatime.toLocalDate());
-      //  System.out.println("Dabar yra: " + datatime.toLocalTime());
+      System.out.println("Dabar yra: " + datatime.toLocalDate());
+      System.out.println("Dabar yra: " + datatime.toLocalTime());
 
         LocalTime time = LocalTime.now();
 
-       /* System.out.println("time: " + time);
+
 
         System.out.println("Pridejus 30 min : " + time.plusMinutes(30));
 
@@ -25,9 +25,9 @@ public class DataLaikas {
 
         System.out.println("time: " + time);
 
-        System.out.println("time: " + time.minusSeconds(10));*/
+        System.out.println("time: " + time.minusSeconds(10));
 
-      /*  System.out.println(time);
+       System.out.println(time);
 
         time = time.plusMinutes(30);
         System.out.println(time);
@@ -37,7 +37,7 @@ public class DataLaikas {
 
         time = time.minusHours(1);
         System.out.println(time);
-*/
+
 
         LocalDate date = LocalDate.now();
         System.out.println(date);
