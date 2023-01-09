@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fce5b895-53bd-4d0a-afa1-daf6d1453039" name="Changes" comment="H23-01-03-21:55">
-      <change afterPath="$PROJECT_DIR$/src/kartojimas/sudatomis/Date.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kartojimas/sudatomis/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kartojimas/sudatomis/Month.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kartojimas/sudatomis/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kartojimas/sudatomis/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kartojimas/testrev/paveldejimas/abc/ClassA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kartojimas/testrev/paveldejimas/abc/ClassB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kartojimas/testrev/paveldejimas/abc/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kartojimas/traukinys/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kartojimas/traukinys/Passenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kartojimas/traukinys/Train.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kartojimas/traukinys/TrainExeption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kartojimas/traukinys/TrainState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kartojimas/traukinys/Transport.java" afterDir="false" />
+    <list default="true" id="fce5b895-53bd-4d0a-afa1-daf6d1453039" name="Changes" comment="H23-01-04-22:02">
+      <change afterPath="$PROJECT_DIR$/Object_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pirmasfile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/BufferedReaderExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/BufferedWriterExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/FailInpStrEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/FileOutputStreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/irasoobjekta/ObjectInputStreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/irasoobjekta/ObjectOutputStreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/irasoobjekta/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/irasoobjekta/sitoNDneneaudoti" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/tasks/TaskOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/tasks/TaskOneRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taskOne.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text3.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kartojimas/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kartojimas/Counter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kartojimas/CounterChild.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kartojimas/CounterChild.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,30 +63,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/HasPe/Documents/GitHub/starisborn&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/HasPe/Documents/GitHub/starisborn",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="kartojimas" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Date">
-    <configuration name="CounterChild" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kartojimas.testrev.CounterChild" />
+  <component name="RunManager" selected="Application.TaskOneRead">
+    <configuration name="BufferedReaderExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="files.BufferedReaderExample" />
       <module name="starisborn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kartojimas.testrev.*" />
+          <option name="PATTERN" value="files.irasoobjekta.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Date" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kartojimas.sudatomis.Date" />
+    <configuration name="ObjectInputStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="files.irasoobjekta.ObjectInputStreamExample" />
       <module name="starisborn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kartojimas.sudatomis.*" />
+          <option name="PATTERN" value="files.irasoobjekta.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MixLetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kartojimas.MixLetters" />
+    <configuration name="ObjectOutputStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="files.irasoobjekta.ObjectOutputStreamExample" />
       <module name="starisborn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kartojimas.*" />
+          <option name="PATTERN" value="files.irasoobjekta.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrBuildTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stringbuilder.StrBuildTask" />
+    <configuration name="TaskOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="files.tasks.TaskOne" />
       <module name="starisborn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stringbuilder.*" />
+          <option name="PATTERN" value="files.tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kartojimas.CounterChild" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kartojimas.CounterChild" />
+    <configuration name="TaskOneRead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="files.tasks.TaskOneRead" />
       <module name="starisborn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kartojimas.*" />
+          <option name="PATTERN" value="files.tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Date" />
-        <item itemvalue="Application.kartojimas.CounterChild" />
-        <item itemvalue="Application.CounterChild" />
-        <item itemvalue="Application.MixLetters" />
-        <item itemvalue="Application.StrBuildTask" />
+        <item itemvalue="Application.TaskOneRead" />
+        <item itemvalue="Application.TaskOne" />
+        <item itemvalue="Application.ObjectInputStreamExample" />
+        <item itemvalue="Application.ObjectOutputStreamExample" />
+        <item itemvalue="Application.BufferedReaderExample" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +287,13 @@
       <option name="presentableId" value="LOCAL−00019" />
       <updated>1672765629131</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL−00020" summary="H23-01-04-22:02">
+      <created>1672862495543</created>
+      <option name="number" value="LOCAL−00020" />
+      <option name="presentableId" value="LOCAL−00020" />
+      <updated>1672862495544</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,6 +311,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Edited println" />
     <MESSAGE value="13 paskaita" />
     <MESSAGE value="44 paskaita" />
@@ -321,7 +329,8 @@
     <MESSAGE value="home230102Task-Null" />
     <MESSAGE value="H23-01-03-19:06" />
     <MESSAGE value="H23-01-03-21:55" />
-    <option name="LAST_COMMIT_MESSAGE" value="H23-01-03-21:55" />
+    <MESSAGE value="H23-01-04-22:02" />
+    <option name="LAST_COMMIT_MESSAGE" value="H23-01-04-22:02" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
