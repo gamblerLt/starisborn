@@ -20,19 +20,17 @@ public class TaskOne {
             bwr.write(line);
             bwr.newLine();
 
+
+        //reversuoti i faila
+            /* StringBuilder sb = new StringBuilder(line);
+                sb.reverse();
+
+                String result = sb.toString();
+                System.out.println(result);*/
+
         }catch (IOException e) {
             System.out.println(e.getMessage());
         }
 
     }
 }
-/*Scanner sc = new Scanner(System.in);
-        System.out.println("Irasykite kazka");
-        String line = sc.nextLine();
-        try (BufferedWriter bw = new BufferedWriter(new FileWriter("output.txt", true))) {
-            bw.write(line);
-            bw.newLine();
-        }catch (IOException e) {
-            System.out.println("Negaliu irasyti i faila" + e.getMessage());
-        }
-    }*/
