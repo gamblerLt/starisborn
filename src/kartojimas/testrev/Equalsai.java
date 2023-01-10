@@ -1,6 +1,6 @@
 package kartojimas.testrev;
 
-public class Equalsai {
+public class Equalsai  {
     public static void main(String[] args) {
         String a = "Pamoka";
         String b = "Pamoka";

@@ -3,6 +3,7 @@ package kartojimas.traukinys;
 public class TrainExeption extends RuntimeException{
 
     public TrainExeption(String message) {
+
         super(message);
     }
 }

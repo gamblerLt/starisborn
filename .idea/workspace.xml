@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fce5b895-53bd-4d0a-afa1-daf6d1453039" name="Changes" comment="H23-01-03-21:55">
-      <change afterPath="$PROJECT_DIR$/src/kartojimas/sudatomis/Date.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kartojimas/sudatomis/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kartojimas/sudatomis/Month.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kartojimas/sudatomis/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kartojimas/sudatomis/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kartojimas/testrev/paveldejimas/abc/ClassA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kartojimas/testrev/paveldejimas/abc/ClassB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kartojimas/testrev/paveldejimas/abc/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kartojimas/traukinys/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kartojimas/traukinys/Passenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kartojimas/traukinys/Train.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kartojimas/traukinys/TrainExeption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kartojimas/traukinys/TrainState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kartojimas/traukinys/Transport.java" afterDir="false" />
+    <list default="true" id="fce5b895-53bd-4d0a-afa1-daf6d1453039" name="Changes" comment="H23-01-09-22:29">
+      <change afterPath="$PROJECT_DIR$/src/files/tasks/two/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/tasks/two/DriverInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/tasks/two/DriverOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/tasks/two/driver_data.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kartojimas/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kartojimas/Counter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kartojimas/CounterChild.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kartojimas/CounterChild.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/tasks/TaskOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/tasks/one/TaskOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/tasks/TaskOneRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/tasks/one/TaskOneRead.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +55,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -79,14 +70,17 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="kartojimas" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HasPe\Documents\GitHub\starisborn\src\files\tasks\two" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Date">
-    <configuration name="CounterChild" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kartojimas.testrev.CounterChild" />
+  <component name="RunManager" selected="Application.DriverInput">
+    <configuration name="DriverInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="files.tasks.two.DriverInput" />
       <module name="starisborn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kartojimas.testrev.*" />
+          <option name="PATTERN" value="files.tasks.two.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Date" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kartojimas.sudatomis.Date" />
+    <configuration name="DriverOutput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="files.tasks.two.DriverOutput" />
       <module name="starisborn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kartojimas.sudatomis.*" />
+          <option name="PATTERN" value="files.tasks.two.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MixLetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kartojimas.MixLetters" />
+    <configuration name="MainDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="files.tasks.two.MainDriver" />
       <module name="starisborn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kartojimas.*" />
+          <option name="PATTERN" value="files.tasks.two.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrBuildTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stringbuilder.StrBuildTask" />
+    <configuration name="TaskOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="files.tasks.one.TaskOne" />
       <module name="starisborn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stringbuilder.*" />
+          <option name="PATTERN" value="files.tasks.one.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kartojimas.CounterChild" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kartojimas.CounterChild" />
+    <configuration name="TaskOneRead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="files.tasks.one.TaskOneRead" />
       <module name="starisborn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kartojimas.*" />
+          <option name="PATTERN" value="files.tasks.one.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Date" />
-        <item itemvalue="Application.kartojimas.CounterChild" />
-        <item itemvalue="Application.CounterChild" />
-        <item itemvalue="Application.MixLetters" />
-        <item itemvalue="Application.StrBuildTask" />
+        <item itemvalue="Application.DriverInput" />
+        <item itemvalue="Application.DriverOutput" />
+        <item itemvalue="Application.MainDriver" />
+        <item itemvalue="Application.TaskOneRead" />
+        <item itemvalue="Application.TaskOne" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +280,19 @@
       <option name="presentableId" value="LOCAL−00019" />
       <updated>1672765629131</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL−00020" summary="H23-01-04-22:02">
+      <created>1672862495543</created>
+      <option name="number" value="LOCAL−00020" />
+      <option name="presentableId" value="LOCAL−00020" />
+      <updated>1672862495544</updated>
+    </task>
+    <task id="LOCAL−00021" summary="H23-01-09-22:29">
+      <created>1673296147855</created>
+      <option name="number" value="LOCAL−00021" />
+      <option name="presentableId" value="LOCAL−00021" />
+      <updated>1673296147866</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,6 +310,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Edited println" />
     <MESSAGE value="13 paskaita" />
     <MESSAGE value="44 paskaita" />
@@ -321,7 +328,9 @@
     <MESSAGE value="home230102Task-Null" />
     <MESSAGE value="H23-01-03-19:06" />
     <MESSAGE value="H23-01-03-21:55" />
-    <option name="LAST_COMMIT_MESSAGE" value="H23-01-03-21:55" />
+    <MESSAGE value="H23-01-04-22:02" />
+    <MESSAGE value="H23-01-09-22:29" />
+    <option name="LAST_COMMIT_MESSAGE" value="H23-01-09-22:29" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -19,4 +19,8 @@ public class Passenger {
                 ", destination='" + destination + '\'' +
                 '}';
     }
+
+    public String getDestination(){
+        return destination;
+    }
 }
