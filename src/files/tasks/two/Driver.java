@@ -17,11 +17,7 @@ public class Driver implements Serializable {
 
     @Override
     public String toString() {
-        return "Driver{" +
-                "name='" + name + '\'' +
-                ", carName='" + carName + '\'' +
-                ", carLicencePlates='" + carLicencePlates + '\'' +
-                ", carMileage=" + carMileage +
-                '}';
+
+        return name + "," + carName + "," + carLicencePlates + "," + + carMileage + ".";
     }
 }

@@ -6,6 +6,7 @@ import java.io.ObjectInputStream;
 
 public class DriverInput {
     public static void main(String[] args) {
+        System.out.println("Duomenys iš .csv failo: \nVardas - Markė - Numeris - Rida ");
         try(ObjectInputStream ois = new ObjectInputStream(new FileInputStream("driver_data2.csv"))){
             Driver driver;
             while((driver = (Driver) ois.readObject()) != null) {
@@ -14,9 +15,9 @@ public class DriverInput {
 
 
         }catch (EOFException e) {
-            System.out.println("Skaitau faila" + e.getMessage());
+            System.out.println("Failas perskaitytas: " + e.getMessage()); // kodel null
         }catch (Exception ex) {
-            System.out.println("neskaitau failo" + ex.getMessage());
+            System.out.println("Kita klaida!" + ex.getMessage());
         }
     }
 }
