@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fce5b895-53bd-4d0a-afa1-daf6d1453039" name="Changes" comment="HuM-01-10-06:16">
-      <change afterPath="$PROJECT_DIR$/driver_data2-old.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/files/tasks/Three/MapClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/files/tasks/Three/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/files/tasks/Three/payment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/files/tasks/Three/people.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/files/tasks/one/TaskOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/tasks/one/TaskOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/files/tasks/two/DriverOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/tasks/two/DriverOutput.java" afterDir="false" />
+    <list default="true" id="fce5b895-53bd-4d0a-afa1-daf6d1453039" name="Changes" comment="HuM-01-10-20:48-123">
+      <change beforePath="$PROJECT_DIR$/src/files/tasks/Three/MapClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/tasks/Three/MapClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/tasks/Three/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/tasks/Three/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -306,7 +300,13 @@
       <option name="presentableId" value="LOCAL−00023" />
       <updated>1673324252011</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL−00024" summary="HuM-01-10-20:48-123">
+      <created>1673376480059</created>
+      <option name="number" value="LOCAL−00024" />
+      <option name="presentableId" value="LOCAL−00024" />
+      <updated>1673376480059</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,7 +345,8 @@
     <MESSAGE value="H23-01-04-22:02" />
     <MESSAGE value="H23-01-09-22:29" />
     <MESSAGE value="HuM-01-10-06:16" />
-    <option name="LAST_COMMIT_MESSAGE" value="HuM-01-10-06:16" />
+    <MESSAGE value="HuM-01-10-20:48-123" />
+    <option name="LAST_COMMIT_MESSAGE" value="HuM-01-10-20:48-123" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

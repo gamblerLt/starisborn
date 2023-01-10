@@ -6,6 +6,9 @@ public class Person implements Serializable {
     private final int id;
     private final String name;
     private final String surname;
+    private final int receivedMoney;
+    private final int sentMoney;
+
 
     public Person(int id, String name, String surname) {
         this.id = id;
@@ -24,12 +27,15 @@ public class Person implements Serializable {
     public String getSurname() {
         return surname;
     }
-    /*@Override
-    public String toString() {
-        return "Person{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", surname='" + surname + '\'' +
-                '}';
-    }*/
+
+    public int getReceivedMoney() {
+        return receivedMoney;
+    }
+
+    public int getSentMoney() {
+        return sentMoney;
+    }
+
 }
+    //seteriai?
+
