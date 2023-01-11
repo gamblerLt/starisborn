@@ -6,8 +6,8 @@ public class Person implements Serializable {
     private final int id;
     private final String name;
     private final String surname;
-    private final int receivedMoney;
-    private final int sentMoney;
+    private int receivedMoney;
+    private int sentMoney;
 
 
     public Person(int id, String name, String surname) {
@@ -32,10 +32,18 @@ public class Person implements Serializable {
         return receivedMoney;
     }
 
+    public void setReceivedMoney(int receivedMoney){
+        this.receivedMoney = receivedMoney;
+    }
+
     public int getSentMoney() {
         return sentMoney;
     }
 
+    public void setSentMoney(int receivedMoney) {
+        this.receivedMoney = receivedMoney;
+    }
+
 }
-    //seteriai?
+
 
