@@ -9,6 +9,9 @@ public class Person implements Serializable {
     private int receivedMoney;
     private int sentMoney;
 
+    private int countReceivedMoney;
+    private int countSentMoney;
+
 
     public Person(int id, String name, String surname) {
         this.id = id;
@@ -42,6 +45,26 @@ public class Person implements Serializable {
 
     public void setSentMoney(int receivedMoney) {
         this.receivedMoney = receivedMoney;
+    }
+
+    public void increaseSentMoneyCount() {
+        countSentMoney++;
+    }
+    public void increaseReceivedMoney() {
+        countReceivedMoney++;
+    }
+
+    public int getCountSentMoney() {
+        return countSentMoney;
+    }
+
+    public int getCountReceivedMoney() {
+        return countReceivedMoney;
+    }
+
+    @Override
+    public String toString() {
+        return String.format("%s,%s,%s,%s", name, surname, receivedMoney, sentMoney);
     }
 
 }

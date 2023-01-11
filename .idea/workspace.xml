@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fce5b895-53bd-4d0a-afa1-daf6d1453039" name="Changes" comment="HuM-01-10-20:48-123">
+      <change afterPath="$PROJECT_DIR$/sorted_by_received_money.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorted_by_sent_money.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/tasks/Three/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/files/tasks/Three/MapClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/tasks/Three/MapClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/files/tasks/Three/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/tasks/Three/Person.java" afterDir="false" />
     </list>
